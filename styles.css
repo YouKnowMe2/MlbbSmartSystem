@@ -1,0 +1,120 @@
+:root {
+  --bg: #0b0f14;
+  --card: #121821;
+  --ink: #e9eef5;
+  --muted: #9fb0c6;
+  --accent: #39a5ff;
+  --ring: #2a3750;
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  color: var(--ink);
+  background: radial-gradient(1200px 800px at 10% -10%, #16202d 0, transparent 60%),
+              radial-gradient(1000px 700px at 110% 10%, #101826 0, transparent 60%),
+              var(--bg);
+}
+
+.container {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+}
+
+header {
+  padding: 28px 0 8px;
+}
+
+h1 {
+  font-size: 1.6rem;
+  margin: 0 0 14px;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: 1fr 160px 140px auto;
+  gap: 10px;
+  align-items: center;
+}
+
+input[type="search"], select {
+  background: var(--card);
+  border: 1px solid var(--ring);
+  color: var(--ink);
+  padding: 10px 12px;
+  border-radius: 10px;
+  outline: none;
+}
+
+input[type="search"]:focus, select:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 20%, transparent);
+}
+
+.count { color: var(--muted); }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 16px;
+  padding: 18px 0 36px;
+}
+
+.card {
+  background: linear-gradient(180deg, color-mix(in srgb, #1a2230 70%, #0a0e13 30%), var(--card));
+  border: 1px solid var(--ring);
+  border-radius: 14px;
+  padding: 14px;
+  display: grid;
+  gap: 10px;
+  transition: transform .12s ease, border-color .12s ease, box-shadow .12s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--accent) 55%, var(--ring));
+  box-shadow: 0 10px 24px -16px #000; 
+}
+
+.avatar {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 10px;
+  object-fit: cover;
+  background: #0e141c;
+  border: 1px solid var(--ring);
+}
+
+.title {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.name { font-weight: 700; }
+.year { color: var(--muted); font-size: .9rem; }
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.pill {
+  font-size: .75rem;
+  color: #d7e6f7;
+  background: #1a2534;
+  border: 1px solid var(--ring);
+  padding: 4px 8px;
+  border-radius: 999px;
+}
+
+.footnote { color: var(--muted); padding-bottom: 36px; }
+
+@media (max-width: 720px) {
+  .controls { grid-template-columns: 1fr 1fr 1fr auto; }
+}
+
