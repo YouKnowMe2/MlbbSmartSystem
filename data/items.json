@@ -72,15 +72,6 @@
     "status": "present"
   },
   {
-    "id": "beast_killer",
-    "name": "Beast Killer",
-    "type": "",
-    "tags": [],
-    "notes": "",
-    "icon": "images/items/beast_killer.png",
-    "status": "removed"
-  },
-  {
     "id": "berserkers_fury",
     "name": "Berserker's Fury",
     "type": "",
@@ -133,15 +124,6 @@
     "notes": "",
     "icon": "images/items/blood_wings.png",
     "status": "present"
-  },
-  {
-    "id": "bloodlust_axe",
-    "name": "Bloodlust Axe",
-    "type": "",
-    "tags": [],
-    "notes": "",
-    "icon": "images/items/bloodlust_axe.png",
-    "status": "removed"
   },
   {
     "id": "bloody_retribution",
@@ -198,15 +180,6 @@
     "status": "present"
   },
   {
-    "id": "calamity_reaper",
-    "name": "Calamity Reaper",
-    "type": "",
-    "tags": [],
-    "notes": "",
-    "icon": "images/items/calamity_reaper.png",
-    "status": "removed"
-  },
-  {
     "id": "clock_of_destiny",
     "name": "Clock of Destiny",
     "type": "",
@@ -234,15 +207,6 @@
     "status": "present"
   },
   {
-    "id": "courage_bulwark",
-    "name": "Courage Bulwark",
-    "type": "",
-    "tags": [],
-    "notes": "",
-    "icon": "images/items/courage_bulwark.png",
-    "status": "removed"
-  },
-  {
     "id": "courage_mask",
     "name": "Courage Mask",
     "type": "",
@@ -250,15 +214,6 @@
     "notes": "",
     "icon": "images/items/courage_mask.png",
     "status": "present"
-  },
-  {
-    "id": "curse_sword",
-    "name": "Curse Sword",
-    "type": "",
-    "tags": [],
-    "notes": "",
-    "icon": "images/items/curse_sword.png",
-    "status": "removed"
   },
   {
     "id": "cursed_helmet",
@@ -277,15 +232,6 @@
     "notes": "",
     "icon": "images/items/dagger.png",
     "status": "present"
-  },
-  {
-    "id": "deadly_blade",
-    "name": "Deadly Blade",
-    "type": "",
-    "tags": [],
-    "notes": "",
-    "icon": "images/items/deadly_blade.png",
-    "status": "removed"
   },
   {
     "id": "defense_items",
@@ -367,15 +313,6 @@
     "notes": "",
     "icon": "images/items/endless_battle.png",
     "status": "present"
-  },
-  {
-    "id": "evil_hunter",
-    "name": "Evil Hunter",
-    "type": "",
-    "tags": [],
-    "notes": "",
-    "icon": "images/items/evil_hunter.png",
-    "status": "removed"
   },
   {
     "id": "exotic_veil",
@@ -549,15 +486,6 @@
     "status": "present"
   },
   {
-    "id": "hunters_knife",
-    "name": "Hunter's Knife",
-    "type": "",
-    "tags": [],
-    "notes": "",
-    "icon": "images/items/hunters_knife.png",
-    "status": "removed"
-  },
-  {
     "id": "ice_queen_wand",
     "name": "Ice Queen Wand",
     "type": "",
@@ -592,15 +520,6 @@
     "notes": "",
     "icon": "images/items/iron_hunting_bow.png",
     "status": "present"
-  },
-  {
-    "id": "iron_mask",
-    "name": "Iron Mask",
-    "type": "",
-    "tags": [],
-    "notes": "",
-    "icon": "images/items/iron_mask.png",
-    "status": "removed"
   },
   {
     "id": "javelin",
@@ -774,15 +693,6 @@
     "status": "present"
   },
   {
-    "id": "nimble_blade",
-    "name": "Nimble Blade",
-    "type": "",
-    "tags": [],
-    "notes": "",
-    "icon": "images/items/nimble_blade.png",
-    "status": "removed"
-  },
-  {
     "id": "ogre_tomahawk",
     "name": "Ogre Tomahawk",
     "type": "",
@@ -826,15 +736,6 @@
     "notes": "",
     "icon": "images/items/passive_favor.png",
     "status": "present"
-  },
-  {
-    "id": "pillager_axe",
-    "name": "Pillager Axe",
-    "type": "",
-    "tags": [],
-    "notes": "",
-    "icon": "images/items/pillager_axe.png",
-    "status": "removed"
   },
   {
     "id": "power_crystal",
@@ -882,15 +783,6 @@
     "status": "present"
   },
   {
-    "id": "raptor_machete",
-    "name": "Raptor Machete",
-    "type": "",
-    "tags": [],
-    "notes": "",
-    "icon": "images/items/raptor_machete.png",
-    "status": "removed"
-  },
-  {
     "id": "regular_spear",
     "name": "Regular Spear",
     "type": "",
@@ -936,15 +828,6 @@
     "status": "present"
   },
   {
-    "id": "scarlet_phantom",
-    "name": "Scarlet Phantom",
-    "type": "",
-    "tags": [],
-    "notes": "",
-    "icon": "images/items/scarlet_phantom.png",
-    "status": "removed"
-  },
-  {
     "id": "sea_halberd",
     "name": "Sea Halberd",
     "type": "",
@@ -961,15 +844,6 @@
     "notes": "",
     "icon": "images/items/shadow_mask.png",
     "status": "present"
-  },
-  {
-    "id": "shadow_twinblades",
-    "name": "Shadow Twinblades",
-    "type": "",
-    "tags": [],
-    "notes": "",
-    "icon": "images/items/shadow_twinblades.png",
-    "status": "removed"
   },
   {
     "id": "shimmering_lantern",
@@ -997,33 +871,6 @@
     "notes": "",
     "icon": "images/items/sky_piercer.png",
     "status": "present"
-  },
-  {
-    "id": "soul_scroll",
-    "name": "Soul Scroll",
-    "type": "",
-    "tags": [],
-    "notes": "",
-    "icon": "images/items/soul_scroll.png",
-    "status": "removed"
-  },
-  {
-    "id": "spirit_wheel",
-    "name": "Spirit Wheel",
-    "type": "",
-    "tags": [],
-    "notes": "",
-    "icon": "images/items/spirit_wheel.png",
-    "status": "removed"
-  },
-  {
-    "id": "star_shard",
-    "name": "Star Shard",
-    "type": "",
-    "tags": [],
-    "notes": "",
-    "icon": "images/items/star_shard.png",
-    "status": "removed"
   },
   {
     "id": "starlium_scythe",
@@ -1152,15 +999,6 @@
     "status": "present"
   },
   {
-    "id": "windtalker",
-    "name": "Windtalker",
-    "type": "",
-    "tags": [],
-    "notes": "",
-    "icon": "images/items/windtalker.png",
-    "status": "removed"
-  },
-  {
     "id": "winter_crown",
     "name": "Winter Crown",
     "type": "",
@@ -1177,15 +1015,6 @@
     "notes": "",
     "icon": "images/items/wishing_lantern.png",
     "status": "present"
-  },
-  {
-    "id": "wizard_boots",
-    "name": "Wizard Boots",
-    "type": "",
-    "tags": [],
-    "notes": "",
-    "icon": "images/items/wizard_boots.png",
-    "status": "removed"
   },
   {
     "id": "wooden_mask",

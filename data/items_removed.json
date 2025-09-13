@@ -1,0 +1,173 @@
+[
+  {
+    "id": "beast_killer",
+    "name": "Beast Killer",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "images/items/beast_killer.png",
+    "status": "removed"
+  },
+  {
+    "id": "bloodlust_axe",
+    "name": "Bloodlust Axe",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "images/items/bloodlust_axe.png",
+    "status": "removed"
+  },
+  {
+    "id": "calamity_reaper",
+    "name": "Calamity Reaper",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "images/items/calamity_reaper.png",
+    "status": "removed"
+  },
+  {
+    "id": "courage_bulwark",
+    "name": "Courage Bulwark",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "images/items/courage_bulwark.png",
+    "status": "removed"
+  },
+  {
+    "id": "curse_sword",
+    "name": "Curse Sword",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "images/items/curse_sword.png",
+    "status": "removed"
+  },
+  {
+    "id": "deadly_blade",
+    "name": "Deadly Blade",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "images/items/deadly_blade.png",
+    "status": "removed"
+  },
+  {
+    "id": "evil_hunter",
+    "name": "Evil Hunter",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "images/items/evil_hunter.png",
+    "status": "removed"
+  },
+  {
+    "id": "hunters_knife",
+    "name": "Hunter's Knife",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "images/items/hunters_knife.png",
+    "status": "removed"
+  },
+  {
+    "id": "iron_mask",
+    "name": "Iron Mask",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "images/items/iron_mask.png",
+    "status": "removed"
+  },
+  {
+    "id": "nimble_blade",
+    "name": "Nimble Blade",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "images/items/nimble_blade.png",
+    "status": "removed"
+  },
+  {
+    "id": "pillager_axe",
+    "name": "Pillager Axe",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "images/items/pillager_axe.png",
+    "status": "removed"
+  },
+  {
+    "id": "raptor_machete",
+    "name": "Raptor Machete",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "images/items/raptor_machete.png",
+    "status": "removed"
+  },
+  {
+    "id": "scarlet_phantom",
+    "name": "Scarlet Phantom",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "images/items/scarlet_phantom.png",
+    "status": "removed"
+  },
+  {
+    "id": "shadow_twinblades",
+    "name": "Shadow Twinblades",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "images/items/shadow_twinblades.png",
+    "status": "removed"
+  },
+  {
+    "id": "soul_scroll",
+    "name": "Soul Scroll",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "images/items/soul_scroll.png",
+    "status": "removed"
+  },
+  {
+    "id": "spirit_wheel",
+    "name": "Spirit Wheel",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "images/items/spirit_wheel.png",
+    "status": "removed"
+  },
+  {
+    "id": "star_shard",
+    "name": "Star Shard",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "images/items/star_shard.png",
+    "status": "removed"
+  },
+  {
+    "id": "windtalker",
+    "name": "Windtalker",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "images/items/windtalker.png",
+    "status": "removed"
+  },
+  {
+    "id": "wizard_boots",
+    "name": "Wizard Boots",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "images/items/wizard_boots.png",
+    "status": "removed"
+  }
+]
