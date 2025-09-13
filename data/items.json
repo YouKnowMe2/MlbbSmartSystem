@@ -1,104 +1,1066 @@
 [
   {
-    "id": "antique_cuirass",
-    "name": "Antique Cuirass",
-    "type": "defense",
-    "tags": ["armor", "anti-burst", "physical"],
-    "notes": "Good vs physical burst and skill-spam heroes.",
-    "recs": { "vs": ["physical"], "vsTags": ["burst", "dps"] }
+    "id": "active_conceal",
+    "name": "Active - Conceal",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
   },
   {
-    "id": "blade_armor",
-    "name": "Blade Armor",
-    "type": "defense",
-    "tags": ["armor", "reflect", "physical"],
-    "notes": "Strong vs marksmen and high crit DPS.",
-    "recs": { "vs": ["physical"], "vsTags": ["dps"] }
+    "id": "allow_throw",
+    "name": "Allow Throw",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "antique_cuirass",
+    "name": "Antique Cuirass",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "arcane_boots",
+    "name": "Arcane Boots",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "ares_belt",
+    "name": "Ares Belt",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
   },
   {
     "id": "athenas_shield",
     "name": "Athena's Shield",
-    "type": "defense",
-    "tags": ["mr", "anti-burst", "magic"],
-    "notes": "Mitigates magic burst.",
-    "recs": { "vs": ["magic"], "vsTags": ["burst"] }
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/b/b9/Athena%27s_Shield_EquipEffectShow.png/revision/latest?cb=20240708170009"
   },
   {
-    "id": "radiant_armor",
-    "name": "Radiant Armor",
-    "type": "defense",
-    "tags": ["mr", "anti-dps", "magic"],
-    "notes": "Great into sustained magic DPS / DoT.",
-    "recs": { "vs": ["magic"], "vsTags": ["dps", "aoe"] }
+    "id": "awe_mask",
+    "name": "Awe Mask",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
   },
   {
-    "id": "dominance_ice",
-    "name": "Dominance Ice",
-    "type": "defense",
-    "tags": ["anti-heal", "anti-aspd", "utility"],
-    "notes": "Counters lifesteal, regen, and atk speed.",
-    "recs": { "vsTags": ["sustain", "heal", "dps"] }
+    "id": "azure_blade",
+    "name": "Azure Blade",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
   },
   {
-    "id": "immortality",
-    "name": "Immortality",
-    "type": "defense",
-    "tags": ["revive", "hp"],
-    "notes": "Late-game safety net.",
-    "recs": { "generic": true }
+    "id": "beast_killer",
+    "name": "Beast Killer",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
   },
   {
-    "id": "malefic_roar",
-    "name": "Malefic Roar",
-    "type": "offense",
-    "tags": ["phys-pen", "physical"],
-    "notes": "Physical penetration vs armor.",
-    "for": ["physical"],
-    "recs": { "vsDef": ["armor"] }
+    "id": "berserkers_fury",
+    "name": "Berserker's Fury",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "black_ice_shield",
+    "name": "Black Ice Shield",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "blade_armor",
+    "name": "Blade Armor",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
   },
   {
     "id": "blade_of_despair",
     "name": "Blade of Despair",
-    "type": "offense",
-    "tags": ["phys-dmg", "burst", "physical"],
-    "notes": "Raw physical damage spike.",
-    "for": ["physical"],
-    "recs": { "generic": true }
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "blade_of_the_heptaseas",
+    "name": "Blade of the Heptaseas",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/b/b6/Blade_of_the_Heptaseas_EquipEffectShow.png/revision/latest?cb=20240708170010"
+  },
+  {
+    "id": "blood_wings",
+    "name": "Blood Wings",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/6/6f/Blood_Wings_EquipEffectShow.png/revision/latest?cb=20240708170012"
+  },
+  {
+    "id": "bloodlust_axe",
+    "name": "Bloodlust Axe",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "bloody_retribution",
+    "name": "Bloody Retribution",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "book_of_sages",
+    "name": "Book of Sages",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "boots",
+    "name": "Boots",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "broken_heart",
+    "name": "Broken Heart",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "brute_force_breastplate",
+    "name": "Brute Force Breastplate",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "bud_of_hope",
+    "name": "Bud of Hope",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "calamity_reaper",
+    "name": "Calamity Reaper",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "clock_of_destiny",
+    "name": "Clock of Destiny",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "concentrated_energy",
+    "name": "Concentrated Energy",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "corrosion_scythe",
+    "name": "Corrosion Scythe",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "courage_bulwark",
+    "name": "Courage Bulwark",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "courage_mask",
+    "name": "Courage Mask",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "curse_sword",
+    "name": "Curse Sword",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "cursed_helmet",
+    "name": "Cursed Helmet",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/e/e4/Cursed_Helmet_EquipEffectShow.png/revision/latest?cb=20240708170014"
+  },
+  {
+    "id": "dagger",
+    "name": "Dagger",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "deadly_blade",
+    "name": "Deadly Blade",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "defense_items",
+    "name": "Defense Items",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "demon_hunter_sword",
+    "name": "Demon Hunter Sword",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "demon_shoes",
+    "name": "Demon Shoes",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
   },
   {
     "id": "divine_glaive",
     "name": "Divine Glaive",
-    "type": "offense",
-    "tags": ["mag-pen", "magic"],
-    "notes": "Magic penetration vs MR.",
-    "for": ["magic"],
-    "recs": { "vsDef": ["mr"] }
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "dominance_ice",
+    "name": "Dominance Ice",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "dreadnaught_armor",
+    "name": "Dreadnaught Armor",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "elegant_gem",
+    "name": "Elegant Gem",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "enchanted_talisman",
+    "name": "Enchanted Talisman",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "endless_battle",
+    "name": "Endless Battle",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/a/ab/Endless_Battle_EquipEffectShow.png/revision/latest?cb=20240708170015"
+  },
+  {
+    "id": "evil_hunter",
+    "name": "Evil Hunter",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "exotic_veil",
+    "name": "Exotic Veil",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "expert_gloves",
+    "name": "Expert Gloves",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "feather_of_heaven",
+    "name": "Feather of Heaven",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "flame_retribution",
+    "name": "Flame Retribution",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "flask_of_the_oasis",
+    "name": "Flask of the Oasis",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "fleeting_time",
+    "name": "Fleeting Time",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "flower_of_hope",
+    "name": "Flower of Hope",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "fury_hammer",
+    "name": "Fury Hammer",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
   },
   {
     "id": "genius_wand",
     "name": "Genius Wand",
-    "type": "offense",
-    "tags": ["mag-pen", "utility", "magic"],
-    "notes": "Magic pen shred vs low-mid MR.",
-    "for": ["magic"],
-    "recs": { "generic": true }
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
   },
   {
-    "id": "sea_halberd",
-    "name": "Sea Halberd",
-    "type": "offense",
-    "tags": ["anti-heal", "physical"],
-    "notes": "Grievous wounds vs regen/lifesteal.",
-    "for": ["physical"],
-    "recs": { "vsTags": ["sustain", "heal"] }
+    "id": "glowing_wand",
+    "name": "Glowing Wand",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/4/46/Glowing_Wand_EquipEffectShow.png/revision/latest?cb=20240708170016"
+  },
+  {
+    "id": "gold",
+    "name": "Gold",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "golden_staff",
+    "name": "Golden Staff",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "great_dragon_spear",
+    "name": "Great Dragon Spear",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "guardian_helmet",
+    "name": "Guardian Helmet",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "haas_claws",
+    "name": "Haas' Claws",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "healing_necklace",
+    "name": "Healing Necklace",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "heros_ring",
+    "name": "Hero's Ring",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "holy_crystal",
+    "name": "Holy Crystal",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "hunter_strike",
+    "name": "Hunter Strike",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/3/37/Hunter_Strike_EquipEffectShow.png/revision/latest?cb=20240708170018"
+  },
+  {
+    "id": "hunters_knife",
+    "name": "Hunter's Knife",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "ice_queen_wand",
+    "name": "Ice Queen Wand",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/1/18/Ice_Queen_Wand_EquipEffectShow.png/revision/latest?cb=20240708170020"
+  },
+  {
+    "id": "ice_retribution",
+    "name": "Ice Retribution",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "immortality",
+    "name": "Immortality",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/2/21/Immortality_EquipEffectShow.png/revision/latest?cb=20240708170022"
+  },
+  {
+    "id": "iron_hunting_bow",
+    "name": "Iron Hunting Bow",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "iron_mask",
+    "name": "Iron Mask",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "javelin",
+    "name": "Javelin",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "knife",
+    "name": "Knife",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "lantern_of_hope",
+    "name": "Lantern of Hope",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "leather_jerkin",
+    "name": "Leather Jerkin",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "legion_sword",
+    "name": "Legion Sword",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "lightning_truncheon",
+    "name": "Lightning Truncheon",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/0/04/Lightning_Truncheon_EquipEffectShow.png/revision/latest?cb=20240708170023"
+  },
+  {
+    "id": "magic_blade",
+    "name": "Magic Blade",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/b/ba/Rose_Gold_Meteor_EquipEffectShow.png/revision/latest?cb=20240708170034"
+  },
+  {
+    "id": "magic_necklace",
+    "name": "Magic Necklace",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "magic_potion",
+    "name": "Magic Potion",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/c/cc/Magic_Potion_EquipEffectShow.png/revision/latest?cb=20240708170025"
+  },
+  {
+    "id": "magic_resist_cloak",
+    "name": "Magic Resist Cloak",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "magic_shoes",
+    "name": "Magic Shoes",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "magic_wand",
+    "name": "Magic Wand",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "malefic_gun",
+    "name": "Malefic Gun",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/a/a1/Malefic_Gun_EquipEffectShow.png/revision/latest?cb=20240708170027"
+  },
+  {
+    "id": "malefic_roar",
+    "name": "Malefic Roar",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "molten_essence",
+    "name": "Molten Essence",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/e/e4/Cursed_Helmet_EquipEffectShow.png/revision/latest?cb=20240708170014"
+  },
+  {
+    "id": "movement_items",
+    "name": "Movement Items",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "mystery_codex",
+    "name": "Mystery Codex",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "mystic_container",
+    "name": "Mystic Container",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
   },
   {
     "id": "necklace_of_durance",
     "name": "Necklace of Durance",
-    "type": "offense",
-    "tags": ["anti-heal", "magic"],
-    "notes": "Anti-heal for magic users.",
-    "for": ["magic"],
-    "recs": { "vsTags": ["sustain", "heal"] }
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/f/f8/Dominance_Ice_passive.jpg/revision/latest?cb=20211225080415"
+  },
+  {
+    "id": "nimble_blade",
+    "name": "Nimble Blade",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "ogre_tomahawk",
+    "name": "Ogre Tomahawk",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "oracle",
+    "name": "Oracle",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "passive_dire_hit",
+    "name": "Passive - Dire Hit",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "passive_encourage",
+    "name": "Passive - Encourage",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "passive_favor",
+    "name": "Passive - Favor",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "pillager_axe",
+    "name": "Pillager Axe",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "power_crystal",
+    "name": "Power Crystal",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "power_potion",
+    "name": "Power Potion",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/c/cf/Power_Potion_EquipEffectShow.png/revision/latest?cb=20240708170029"
+  },
+  {
+    "id": "queens_wings",
+    "name": "Queen's Wings",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/8/83/Queen%27s_Wings_EquipEffectShow.png/revision/latest?cb=20240708170030"
+  },
+  {
+    "id": "radiant_armor",
+    "name": "Radiant Armor",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "rapid_boots",
+    "name": "Rapid Boots",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "raptor_machete",
+    "name": "Raptor Machete",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "regular_spear",
+    "name": "Regular Spear",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "resonating_heart",
+    "name": "Resonating Heart",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "rock_potion",
+    "name": "Rock Potion",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/d/d7/Rock_Potion_EquipEffectShow.png/revision/latest?cb=20240708170032"
+  },
+  {
+    "id": "rogue_meteor",
+    "name": "Rogue Meteor",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "rose_gold_meteor",
+    "name": "Rose Gold Meteor",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/b/ba/Rose_Gold_Meteor_EquipEffectShow.png/revision/latest?cb=20240708170034"
+  },
+  {
+    "id": "scarlet_phantom",
+    "name": "Scarlet Phantom",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "sea_halberd",
+    "name": "Sea Halberd",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/e/e4/Sea_Halberd_EquipEffectShow.png/revision/latest?cb=20240708170036"
+  },
+  {
+    "id": "shadow_mask",
+    "name": "Shadow Mask",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "shadow_twinblades",
+    "name": "Shadow Twinblades",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/b/ba/Shadow_Twinblades_passive.jpg/revision/latest?cb=20211123173218"
+  },
+  {
+    "id": "shimmering_lantern",
+    "name": "Shimmering Lantern",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "silence_robe",
+    "name": "Silence Robe",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "sky_piercer",
+    "name": "Sky Piercer",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/0/00/Sky_Piercer_EquipEffectShow.png/revision/latest?cb=20240708170038"
+  },
+  {
+    "id": "soul_scroll",
+    "name": "Soul Scroll",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "spirit_wheel",
+    "name": "Spirit Wheel",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "star_shard",
+    "name": "Star Shard",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "starlium_scythe",
+    "name": "Starlium Scythe",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/4/44/Starlium_Scythe_EquipEffectShow.png/revision/latest?cb=20240708170039"
+  },
+  {
+    "id": "steel_legplates",
+    "name": "Steel Legplates",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "swift_boots",
+    "name": "Swift Boots",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "swift_crossbow",
+    "name": "Swift Crossbow",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "throw_forbidden",
+    "name": "Throw Forbidden",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "thunder_belt",
+    "name": "Thunder Belt",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/d/d7/Thunder_Belt_EquipEffectShow.png/revision/latest?cb=20240708170040"
+  },
+  {
+    "id": "tome_of_evil",
+    "name": "Tome of Evil",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "tough_boots",
+    "name": "Tough Boots",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "twilight_armor",
+    "name": "Twilight Armor",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/3/33/Twilight_Armor_EquipEffectShow.png/revision/latest?cb=20240708170042"
+  },
+  {
+    "id": "vampire_mallet",
+    "name": "Vampire Mallet",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "vitality_crystal",
+    "name": "Vitality Crystal",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "war_axe",
+    "name": "War Axe",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "warrior_boots",
+    "name": "Warrior Boots",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "wind_of_nature",
+    "name": "Wind of Nature",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/0/00/Wind_of_Nature_EquipEffectShow.png/revision/latest?cb=20240708170044"
+  },
+  {
+    "id": "windtalker",
+    "name": "Windtalker",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/6/6a/Windtalker_EquipEffectShow.png/revision/latest?cb=20240708170046"
+  },
+  {
+    "id": "winter_crown",
+    "name": "Winter Crown",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/9/90/Winter_Crown_EquipEffectShow.png/revision/latest?cb=20240708170047"
+  },
+  {
+    "id": "wishing_lantern",
+    "name": "Wishing Lantern",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/3/31/Wishing_Lantern_EquipEffectShow.png/revision/latest?cb=20240708170048"
+  },
+  {
+    "id": "wizard_boots",
+    "name": "Wizard Boots",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
+  },
+  {
+    "id": "wooden_mask",
+    "name": "Wooden Mask",
+    "type": "",
+    "tags": [],
+    "notes": "",
+    "icon": ""
   }
 ]

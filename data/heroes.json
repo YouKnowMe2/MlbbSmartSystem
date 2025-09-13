@@ -1,12 +1,1522 @@
 [
-  { "id": 1, "name": "Alucard", "roles": ["Fighter", "Assassin"], "lanes": ["Jungle", "EXP"], "year": 2016, "img": "", "damageType": "physical", "tags": ["sustain", "mobility"] },
-  { "id": 2, "name": "Layla", "roles": ["Marksman"], "lanes": ["Gold"], "year": 2016, "img": "", "damageType": "physical", "tags": ["dps"] },
-  { "id": 3, "name": "Miya", "roles": ["Marksman"], "lanes": ["Gold"], "year": 2016, "img": "", "damageType": "physical", "tags": ["dps"] },
-  { "id": 4, "name": "Tigreal", "roles": ["Tank"], "lanes": ["Roam"], "year": 2016, "img": "", "damageType": "physical", "tags": ["cc", "tank"] },
-  { "id": 5, "name": "Gusion", "roles": ["Assassin"], "lanes": ["Jungle", "Mid"], "year": 2018, "img": "", "damageType": "magic", "tags": ["burst", "mobility"] },
-  { "id": 6, "name": "Angela", "roles": ["Support"], "lanes": ["Roam"], "year": 2018, "img": "", "damageType": "magic", "tags": ["support", "shield"] },
-  { "id": 7, "name": "Chou", "roles": ["Fighter"], "lanes": ["EXP", "Roam"], "year": 2017, "img": "", "damageType": "physical", "tags": ["cc", "mobility"] },
-  { "id": 8, "name": "Alice", "roles": ["Mage"], "lanes": ["EXP", "Mid"], "year": 2016, "img": "", "damageType": "magic", "tags": ["sustain", "aoe"] },
-  { "id": 9, "name": "Kimmy", "roles": ["Marksman", "Mage"], "lanes": ["Mid", "Gold"], "year": 2018, "img": "", "damageType": "hybrid", "tags": ["dps"] },
-  { "id": 10, "name": "Balmond", "roles": ["Fighter"], "lanes": ["Jungle", "EXP"], "year": 2016, "img": "", "damageType": "physical", "tags": ["regen", "aoe"] }
+  {
+    "id": 1,
+    "name": "Aamon",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/c/c8/Hero1091-portrait.png/revision/latest?cb=20241021143317",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 2,
+    "name": "Akai",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/9d/Hero091-portrait.png/revision/latest?cb=20241021140401",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 3,
+    "name": "Aldous",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/6/61/Hero641-portrait.png/revision/latest?cb=20241021142204",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 4,
+    "name": "Alice",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/88/Hero041-portrait.png/revision/latest?cb=20241021140346",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 5,
+    "name": "Alpha",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/b0/Hero281-portrait.png/revision/latest?cb=20250802155020",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 6,
+    "name": "Alucard",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/01/Hero071-portrait.png/revision/latest?cb=20241021140353",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 7,
+    "name": "Angela",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/6/6b/Hero551-portrait.png/revision/latest?cb=20250406000910",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 8,
+    "name": "Argus",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/ac/Hero451-portrait.png/revision/latest?cb=20250407160733",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 9,
+    "name": "Arlott",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/49/Hero1201-portrait.png/revision/latest?cb=20241021140737",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 10,
+    "name": "Assassin",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/2/2c/Aamon_%28Duke_of_Shards%29.jpg/revision/latest?cb=20220218134516",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 11,
+    "name": "Atlas",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/7c/Hero931-portrait.png/revision/latest?cb=20241021142917",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 12,
+    "name": "Aulus",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/1d/Hero1081-portrait.png/revision/latest?cb=20241021143302",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 13,
+    "name": "Aurora",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/30/Hero361-portrait.png/revision/latest?cb=20241021141501",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 14,
+    "name": "Badang",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d8/Hero771-portrait.png/revision/latest?cb=20241021142519",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 15,
+    "name": "Balmond",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/c/c4/Hero021-portrait.png/revision/latest?cb=20241021131359",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 16,
+    "name": "Bane",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/8d/Hero111-portrait.png/revision/latest?cb=20241021140922",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 17,
+    "name": "Barats",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/0f/Hero991-portrait.png/revision/latest?cb=20241021143047",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 18,
+    "name": "Baxia",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d0/Hero871-portrait.png/revision/latest?cb=20241021142746",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 19,
+    "name": "Beatrix",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/de/Hero1051-portrait.png/revision/latest?cb=20241021143216",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 20,
+    "name": "Belerick",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/8d/Hero701-portrait.png/revision/latest?cb=20241021142334",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 21,
+    "name": "Benedetta",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/1d/Hero971-portrait.png/revision/latest?cb=20241021143017",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 22,
+    "name": "Brody",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/2/2c/Hero1001-portrait.png/revision/latest?cb=20241021143102",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 23,
+    "name": "Bruno",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/44/Hero121-portrait.png/revision/latest?cb=20241021140925",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 24,
+    "name": "Cancelled heroes",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/1b/Unnamed_Hero-01.png/revision/latest?cb=20180526142926",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 25,
+    "name": "Carmilla",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/30/Hero921-portrait.png/revision/latest?cb=20241021142902",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 26,
+    "name": "Cecilion",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/7f/Hero911-portrait.png/revision/latest?cb=20241021142846",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 27,
+    "name": "Chang'e",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/6/63/Hero611-portrait.png/revision/latest?cb=20241021142120",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 28,
+    "name": "Chip",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/73/Hero1241-portrait.png/revision/latest?cb=20241021140835",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 29,
+    "name": "Chou",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/ed/Hero261-portrait.png/revision/latest?cb=20241021141231",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 30,
+    "name": "Cici",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/4f/Hero1231-portrait.png/revision/latest?cb=20241021140820",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 31,
+    "name": "Claude",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/6/61/Hero651-portrait.png/revision/latest?cb=20241021142219",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 32,
+    "name": "Clint",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d9/Hero131-portrait.png/revision/latest?cb=20241021140929",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 33,
+    "name": "Cyclops",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/09/Hero331-portrait.png/revision/latest?cb=20241021141415",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 34,
+    "name": "Diggie",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Hero481-portrait.png/revision/latest?cb=20241021141804",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 35,
+    "name": "Dyrroth",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/2/2c/Hero851-portrait.png/revision/latest?cb=20241021142715",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 36,
+    "name": "Edith",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/47/Hero1111-portrait.png/revision/latest?cb=20241021143348",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 37,
+    "name": "Esmeralda",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/42/Hero811-portrait.png/revision/latest?cb=20241021142615",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 38,
+    "name": "Estes",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/c/c0/Hero341-portrait.png/revision/latest?cb=20241021141430",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 39,
+    "name": "Eudora",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/ab/Hero151-portrait.png/revision/latest?cb=20241021140945",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 40,
+    "name": "EXP Laner",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 41,
+    "name": "Fanny",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/7f/Hero171-portrait.png/revision/latest?cb=20241021141015",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 42,
+    "name": "Faramis",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d0/Hero761-portrait.png/revision/latest?cb=20241021142504",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 43,
+    "name": "Fighter",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/30/Balmond_%28Bloody_Beast%29.jpg/revision/latest?cb=20210823114425",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 44,
+    "name": "Floryn",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/11/Hero1121-portrait.png/revision/latest?cb=20241021143403",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 45,
+    "name": "Franco",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/b3/Hero101-portrait.png/revision/latest?cb=20241021140917",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 46,
+    "name": "Fredrinn",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/78/Hero1171-portrait.png/revision/latest?cb=20241021140652",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 47,
+    "name": "Freya",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/5/54/Hero221-portrait.png/revision/latest?cb=20241021141130",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 48,
+    "name": "Gatotkaca",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/ba/Hero411-portrait.png/revision/latest?cb=20241021141617",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 49,
+    "name": "Gloo",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/12/Hero1041-portrait.png/revision/latest?cb=20250403144136",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 50,
+    "name": "Gold Laner",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 51,
+    "name": "Gord",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/a7/Hero231-portrait.png/revision/latest?cb=20241123045016",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 52,
+    "name": "Granger",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/c/cb/Hero791-portrait.png/revision/latest?cb=20250407160652",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 53,
+    "name": "Grock",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/95/Hero441-portrait.png/revision/latest?cb=20250811073746",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 54,
+    "name": "Guinevere",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/88/Hero801-portrait.png/revision/latest?cb=20241021142559",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 55,
+    "name": "Gusion",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/a2/Hero561-portrait.png/revision/latest?cb=20241021142006",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 56,
+    "name": "Hanabi",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/95/Hero601-portrait.png/revision/latest?cb=20241021142105",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 57,
+    "name": "Hanzo",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/f/f8/Hero691-portrait.png/revision/latest?cb=20250117141953",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 58,
+    "name": "Harith",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/36/Hero731-portrait.png/revision/latest?cb=20241021142419",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 59,
+    "name": "Harley",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/81/Hero421-portrait.png/revision/latest?cb=20241021141633",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 60,
+    "name": "Hayabusa",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/35/Hero211-portrait.png/revision/latest?cb=20241021141115",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 61,
+    "name": "Heavenly Artifacts",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/2/2d/Empyrean_Paladin.jpg/revision/latest?cb=20220113132354",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 62,
+    "name": "Helcurt",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/ac/Hero511-portrait.png/revision/latest?cb=20241021141850",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 63,
+    "name": "Hero roles",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 64,
+    "name": "Heroes",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/b9/Heroes.jpg/revision/latest?cb=20200807120630",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 65,
+    "name": "Hilda",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/dc/Hero351-portrait.png/revision/latest?cb=20241021141445",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 66,
+    "name": "Hylos",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/1e/Hero491-portrait.png/revision/latest?cb=20241021141819",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 67,
+    "name": "Irithel",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/b8/Hero431-portrait.png/revision/latest?cb=20241021141648",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 68,
+    "name": "Ixia",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/2/24/Hero1211-portrait.png/revision/latest?cb=20241021140752",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 69,
+    "name": "Jawhead",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/2/2c/Hero541-portrait.png/revision/latest?cb=20241021141935",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 70,
+    "name": "Johnson",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/4a/Hero321-portrait.png/revision/latest?cb=20241021141359",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 71,
+    "name": "Joy",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/f/fb/Hero1181-portrait.png/revision/latest?cb=20241021140707",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 72,
+    "name": "Julian",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/0c/Hero1161-portrait.png/revision/latest?cb=20241021140636",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 73,
+    "name": "Jungler",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 74,
+    "name": "Kadita",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/e8/Hero751-portrait.png/revision/latest?cb=20241021142450",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 75,
+    "name": "Kagura",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/8e/Hero251-portrait.png/revision/latest?cb=20241021141216",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 76,
+    "name": "Kaja",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/86/Hero621-portrait.png/revision/latest?cb=20241021142136",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 77,
+    "name": "Kalea",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/9a/Hero1281-portrait.png/revision/latest?cb=20250407160846",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 78,
+    "name": "Karina",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/41/Hero081-portrait.png/revision/latest?cb=20241021140357",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 79,
+    "name": "Karrie",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/db/Hero401-portrait.png/revision/latest?cb=20241021141602",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 80,
+    "name": "Khaleed",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/c/c6/Hero981-portrait.png/revision/latest?cb=20241021143032",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 81,
+    "name": "Khufra",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/0f/Hero781-portrait.png/revision/latest?cb=20241021142534",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 82,
+    "name": "Kimmy",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/eb/Hero711-portrait.png/revision/latest?cb=20250320124912",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 83,
+    "name": "Lancelot",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/df/Hero471-portrait.png/revision/latest?cb=20241021141749",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 84,
+    "name": "Lapu-Lapu",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/78/Hero371-portrait.png/revision/latest?cb=20241021141516",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 85,
+    "name": "Layla",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/5/58/Hero181-portrait.png/revision/latest?cb=20241021141031",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 86,
+    "name": "Leomord",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/de/Hero671-portrait.png/revision/latest?cb=20241021142250",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 87,
+    "name": "Lesley",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/f/f1/Hero531-portrait.png/revision/latest?cb=20241021141920",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 88,
+    "name": "Lightborn",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/c/cb/Lightborn_-_Defender.jpg/revision/latest?cb=20210812095558",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 89,
+    "name": "Ling",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/e0/Hero841-portrait.png/revision/latest?cb=20241021142700",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 90,
+    "name": "List of heroes",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 91,
+    "name": "Lolita",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/2/20/Hero201-portrait.png/revision/latest?cb=20241021141100",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 92,
+    "name": "Lukas",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/b0/Hero1271-portrait.png/revision/latest?cb=20250412174341",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 93,
+    "name": "Lunox",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d8/Hero681-portrait.png/revision/latest?cb=20241021142306",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 94,
+    "name": "Luo Yi",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/0f/Hero961-portrait.png/revision/latest?cb=20241021143002",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 95,
+    "name": "Lylia",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/ef/Hero861-portrait.png/revision/latest?cb=20241021142730",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 96,
+    "name": "Mage",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/3a/Xavier_%28Defier_of_Light%29.jpg/revision/latest?cb=20220322122200",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 97,
+    "name": "Marksman",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/ec/Melissa_%28Cursed_Needle%29.jpg/revision/latest?cb=20220301065501",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 98,
+    "name": "Martis",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/0b/Hero581-portrait.png/revision/latest?cb=20241021142036",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 99,
+    "name": "Masha",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/ae/Hero881-portrait.png/revision/latest?cb=20241021142800",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 100,
+    "name": "Mathilda",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/92/Hero1021-portrait.png/revision/latest?cb=20241021143131",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 101,
+    "name": "Melissa",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/14/Hero1141-portrait.png/revision/latest?cb=20241021143430",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 102,
+    "name": "Mid Laner",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 103,
+    "name": "Minotaur",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/9f/Hero191-portrait.png/revision/latest?cb=20241021141046",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 104,
+    "name": "Minsitthar",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/83/Hero741-portrait.png/revision/latest?cb=20241021142435",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 105,
+    "name": "Miya",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/89/Hero011-portrait.png/revision/latest?cb=20250407160822",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 106,
+    "name": "Moskov",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/6/60/Hero311-portrait.png/revision/latest?cb=20241021141344",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 107,
+    "name": "Nana",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/a4/Hero051-portrait.png/revision/latest?cb=20241021140348",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 108,
+    "name": "Natalia",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/6/68/Hero241-portrait.png/revision/latest?cb=20241021141201",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 109,
+    "name": "Natan",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/0b/Hero1071-portrait.png/revision/latest?cb=20241021143246",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 110,
+    "name": "Nolan",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/f/fc/Hero1221-portrait.png/revision/latest?cb=20241021140807",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 111,
+    "name": "Novaria",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d5/Hero1191-portrait.png/revision/latest?cb=20241021140722",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 112,
+    "name": "Obsidia",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/0/0b/Hero1301-portrait.png/revision/latest?cb=20250615074243",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 113,
+    "name": "Odette",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/ed/Hero461-portrait.png/revision/latest?cb=20250117141936",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 114,
+    "name": "Oriental Fighters",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/35/Oriental_Fighters.png/revision/latest?cb=20200406042749",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 115,
+    "name": "Paquito",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/a9/Hero1031-portrait.png/revision/latest?cb=20241021143146",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 116,
+    "name": "Pharsa",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/a2/Hero521-portrait.png/revision/latest?cb=20241021141905",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 117,
+    "name": "Phoveus",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/3c/Hero1061-portrait.png/revision/latest?cb=20241021143231",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 118,
+    "name": "Popol and Kupa",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/a5/Hero941-portrait.png/revision/latest?cb=20241021142932",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 119,
+    "name": "Rafaela",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d0/Hero141-portrait.png/revision/latest?cb=20241021140932",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 120,
+    "name": "Roamer",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 121,
+    "name": "Roger",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/33/Hero391-portrait.png/revision/latest?cb=20241021141547",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 122,
+    "name": "Ruby",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/b4/Hero291-portrait.png/revision/latest?cb=20250802152205",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 123,
+    "name": "S.A.B.E.R.",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/f/f0/Hero145-portrait.png/revision/latest?cb=20220525164616",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 124,
+    "name": "Saber",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/e7/Hero031-portrait.png/revision/latest?cb=20250406000702",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 125,
+    "name": "Selena",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/a/a4/Hero631-portrait.png/revision/latest?cb=20241021142149",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 126,
+    "name": "Side Laner",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/b3/Balmond_Side_Lane.jpg/revision/latest?cb=20200803132314",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 127,
+    "name": "Silvanna",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/97/Hero901-portrait.png/revision/latest?cb=20241021142831",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 128,
+    "name": "Sun",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/89/Hero271-portrait.png/revision/latest?cb=20241021141243",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 129,
+    "name": "Support",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/6/68/Rafaela_%28Wings_of_Holiness%29.jpg/revision/latest?cb=20200420150336",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 130,
+    "name": "Suyou",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/4/41/Hero1261-portrait.png/revision/latest?cb=20250412174335",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 131,
+    "name": "Tank",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/ea/Atlas_%28Ocean_Gladiator%29.jpg/revision/latest?cb=20200528124541",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 132,
+    "name": "Terizla",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/6/6d/Hero821-portrait.png/revision/latest?cb=20250802145756",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 133,
+    "name": "Thamuz",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/74/Hero721-portrait.png/revision/latest?cb=20241021142404",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 134,
+    "name": "The Exorcists/Member Introduction",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/d/d6/Hero258-portrait.png/revision/latest?cb=20220915121143",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 135,
+    "name": "Tigreal",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/b8/Hero061-portrait.png/revision/latest?cb=20241021140350",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 136,
+    "name": "Uranus",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/bb/Hero591-portrait.png/revision/latest?cb=20241021142052",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 137,
+    "name": "V.E.N.O.M.",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/3f/Hero566-portrait.png/revision/latest?cb=20220525165448",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 138,
+    "name": "Vale",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/c/c7/Hero661-portrait.png/revision/latest?cb=20250406000746",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 139,
+    "name": "Valentina",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/12/Hero1101-portrait.png/revision/latest?cb=20241021143333",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 140,
+    "name": "Valir",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/9e/Hero571-portrait.png/revision/latest?cb=20241021142021",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 141,
+    "name": "Vexana",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/3/36/Hero381-portrait.png/revision/latest?cb=20241021141531",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 142,
+    "name": "Wanwan",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/8/8f/Hero891-portrait.png/revision/latest?cb=20250117142006",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 143,
+    "name": "X.Borg",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/5/50/Hero831-portrait.png/revision/latest?cb=20241021142646",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 144,
+    "name": "Xavier",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/e/e0/Hero1151-portrait.png/revision/latest?cb=20241021143446",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 145,
+    "name": "Yi Sun-shin",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/2/29/Hero301-portrait.png/revision/latest?cb=20241021141329",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 146,
+    "name": "Yin",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/b/bc/Hero1131-portrait.png/revision/latest?cb=20241021143417",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 147,
+    "name": "Yu Zhong",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/10/Hero951-portrait.png/revision/latest?cb=20241021142947",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 148,
+    "name": "Yve",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/1/10/Hero1011-portrait.png/revision/latest?cb=20241021143118",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 149,
+    "name": "Zetian",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/f/f7/Hero1291-portrait.png/revision/latest?cb=20250802160054",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 150,
+    "name": "Zhask",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/f/fe/Hero501-portrait.png/revision/latest?cb=20241021141834",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 151,
+    "name": "Zhuxin",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/9/9f/Hero1251-portrait.png/revision/latest?cb=20250406000833",
+    "damageType": "",
+    "tags": []
+  },
+  {
+    "id": 152,
+    "name": "Zilong",
+    "roles": [],
+    "lanes": [],
+    "year": null,
+    "img": "https://static.wikia.nocookie.net/mobile-legends/images/7/7a/Hero161-portrait.png/revision/latest?cb=20241021141000",
+    "damageType": "",
+    "tags": []
+  }
 ]
