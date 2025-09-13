@@ -45,7 +45,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/athenas_shield.png"
+    "icon": ""
   },
   {
     "id": "awe_mask",
@@ -109,7 +109,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/blade_of_the_heptaseas.png"
+    "icon": ""
   },
   {
     "id": "blood_wings",
@@ -117,7 +117,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/blood_wings.png"
+    "icon": ""
   },
   {
     "id": "bloodlust_axe",
@@ -237,7 +237,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/cursed_helmet.png"
+    "icon": ""
   },
   {
     "id": "dagger",
@@ -325,7 +325,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/endless_battle.png"
+    "icon": ""
   },
   {
     "id": "evil_hunter",
@@ -413,7 +413,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/glowing_wand.png"
+    "icon": ""
   },
   {
     "id": "gold",
@@ -485,7 +485,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/hunter_strike.png"
+    "icon": ""
   },
   {
     "id": "hunters_knife",
@@ -501,7 +501,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/ice_queen_wand.png"
+    "icon": ""
   },
   {
     "id": "ice_retribution",
@@ -517,7 +517,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/immortality.png"
+    "icon": ""
   },
   {
     "id": "iron_hunting_bow",
@@ -581,7 +581,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/lightning_truncheon.png"
+    "icon": ""
   },
   {
     "id": "magic_blade",
@@ -589,7 +589,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/magic_blade.png"
+    "icon": ""
   },
   {
     "id": "magic_necklace",
@@ -605,7 +605,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/magic_potion.png"
+    "icon": ""
   },
   {
     "id": "magic_resist_cloak",
@@ -637,7 +637,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/malefic_gun.png"
+    "icon": ""
   },
   {
     "id": "malefic_roar",
@@ -653,7 +653,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/molten_essence.png"
+    "icon": ""
   },
   {
     "id": "movement_items",
@@ -685,7 +685,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/necklace_of_durance.jpg"
+    "icon": ""
   },
   {
     "id": "nimble_blade",
@@ -757,7 +757,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/power_potion.png"
+    "icon": ""
   },
   {
     "id": "queens_wings",
@@ -765,7 +765,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/queens_wings.png"
+    "icon": ""
   },
   {
     "id": "radiant_armor",
@@ -813,7 +813,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/rock_potion.png"
+    "icon": ""
   },
   {
     "id": "rogue_meteor",
@@ -829,7 +829,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/rose_gold_meteor.png"
+    "icon": ""
   },
   {
     "id": "scarlet_phantom",
@@ -845,7 +845,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/sea_halberd.png"
+    "icon": ""
   },
   {
     "id": "shadow_mask",
@@ -861,7 +861,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/shadow_twinblades.jpg"
+    "icon": ""
   },
   {
     "id": "shimmering_lantern",
@@ -885,7 +885,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/sky_piercer.png"
+    "icon": ""
   },
   {
     "id": "soul_scroll",
@@ -917,7 +917,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/starlium_scythe.png"
+    "icon": ""
   },
   {
     "id": "steel_legplates",
@@ -957,7 +957,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/thunder_belt.png"
+    "icon": ""
   },
   {
     "id": "tome_of_evil",
@@ -981,7 +981,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/twilight_armor.png"
+    "icon": ""
   },
   {
     "id": "vampire_mallet",
@@ -1021,7 +1021,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/wind_of_nature.png"
+    "icon": ""
   },
   {
     "id": "windtalker",
@@ -1029,7 +1029,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/windtalker.png"
+    "icon": ""
   },
   {
     "id": "winter_crown",
@@ -1037,7 +1037,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/winter_crown.png"
+    "icon": ""
   },
   {
     "id": "wishing_lantern",
@@ -1045,7 +1045,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/wishing_lantern.png"
+    "icon": ""
   },
   {
     "id": "wizard_boots",
