@@ -100,9 +100,30 @@ function populateBuilderSelects(heroes) {
   const yourHeroEl = qs('#your-hero');
   const oppEls = qsa('.opponent');
   if (!yourHeroEl || !oppEls.length) return;
-  const options = ['<option value="">—</option>', ...heroes.map(h => `<option value="${h.id}">${h.name}</option>`)];
+  const options = ['<option value="">-</option>', ...heroes.map(h => `<option value="${h.id}">${h.name}</option>`)];
   yourHeroEl.innerHTML = options.join('');
   oppEls.forEach(sel => sel.innerHTML = options.join(''));
+}
+
+function populateDraftBoard(heroes) {
+  const ally = qsa('.ally-slot');
+  const enemy = qsa('.enemy-slot');
+  if (!(ally.length || enemy.length)) return;
+  const options = ['<option value="">—</option>', ...heroes.map(h => `<option value="${h.id}">${h.name}</option>`)];
+  const getHeroById = (id) => heroes.find(h => String(h.id) === String(id));
+  const all = ally.concat(enemy);
+  all.forEach(sel => {
+    sel.innerHTML = options.join('');
+    sel.addEventListener('change', () => {
+      const wrap = sel.closest('.slot');
+      const img = wrap?.querySelector('.slot-avatar');
+      const h = getHeroById(sel.value);
+      if (img) {
+        img.src = h?.img || '';
+        img.style.display = h ? '' : 'none';
+      }
+    });
+  });
 }
 
 function summarizeOpponents(opponents) {
@@ -266,6 +287,7 @@ function applyFilters(heroes) {
   const heroes = await loadHeroes();
   populateRoleFilter(heroes);
   populateBuilderSelects(heroes);
+  populateDraftBoard(heroes);
   const items = await loadItems();
   const counters = await loadCounters();
   const render = () => renderCards(applyFilters(heroes));
@@ -282,7 +304,12 @@ function applyFilters(heroes) {
   const defList = qs('#defense-list');
   const offList = qs('#offense-list');
   const getHero = (sel) => heroes.find(h => String(h.id) === String(sel.value));
-  const getOpponents = () => oppEls.map(getHero).filter(Boolean);
+  const getOpponents = () => {
+    const enemySlots = qsa('.enemy-slot');
+    const mapped = enemySlots.map(s => heroes.find(h => String(h.id) === String(s.value))).filter(Boolean);
+    if (mapped.length) return mapped;
+    return oppEls.map(getHero).filter(Boolean);
+  };
   btn?.addEventListener('click', () => {
     const yourHero = getHero(yourHeroEl);
     const opponents = getOpponents();
@@ -306,6 +333,7 @@ function applyFilters(heroes) {
   btnHero?.addEventListener('click', doHeroRecs);
   roleEl2?.addEventListener('change', doHeroRecs);
   oppEls.forEach(sel => sel.addEventListener('change', doHeroRecs));
+  qsa('.enemy-slot').forEach(sel => sel.addEventListener('change', doHeroRecs));
   qs('#hero-picks')?.addEventListener('click', (e) => {
     const li = e.target.closest('.hero-pick');
     if (!li) return;
