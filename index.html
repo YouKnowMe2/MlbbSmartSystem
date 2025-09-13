@@ -8,6 +8,59 @@
   </head>
   <body>
     <header class="container">
+      <h1>Mobile Legends: Bang Bang - Heroes</h1>
+      <div class="controls">
+        <input id="search" type="search" placeholder="Search heroes." aria-label="Search heroes" />
+        <select id="role-filter" aria-label="Filter by role">
+          <option value="">All roles</option>
+        </select>
+        <select id="lane-filter" aria-label="Filter by lane">
+          <option value="">All lanes</option>
+          <option>Gold</option>
+          <option>EXP</option>
+          <option>Mid</option>
+          <option>Jungle</option>
+          <option>Roam</option>
+          <option>Any</option>
+        </select>
+        <span id="count" class="count" aria-live="polite"></span>
+      </div>
+    </header>
+
+    <section class="container builder" aria-labelledby="builder-title">
+      <h2 id="builder-title">Matchup Planner</h2>
+      <div class="builder-grid">
+        <div>
+          <label for="your-hero">Your Hero</label>
+          <select id="your-hero" aria-label="Your hero"></select>
+        </div>
+        <div>
+          <label>Opponents</label>
+          <div class="opponents">
+            <select class="opponent" data-slot="1" aria-label="Opponent 1"></select>
+            <select class="opponent" data-slot="2" aria-label="Opponent 2"></select>
+            <select class="opponent" data-slot="3" aria-label="Opponent 3"></select>
+            <select class="opponent" data-slot="4" aria-label="Opponent 4"></select>
+            <select class="opponent" data-slot="5" aria-label="Opponent 5"></select>
+          </div>
+        </div>
+        <div class="builder-actions">
+          <button id="recommend" type="button">Recommend Items</button>
+        </div>
+      </div>
+
+      <div class="recommendations">
+        <div>
+          <h3>Defense Suggestions</h3>
+          <ul id="defense-list" class="item-list"></ul>
+        </div>
+        <div>
+          <h3>Offense Suggestions</h3>
+          <ul id="offense-list" class="item-list"></ul>
+        </div>
+      </div>
+    </section>
+    <header class="container">
       <h1>Mobile Legends: Bang Bang — Heroes</h1>
       <div class="controls">
         <input id="search" type="search" placeholder="Search heroes…" aria-label="Search heroes" />
@@ -38,4 +91,3 @@
     <script defer src="app.js"></script>
   </body>
   </html>
-

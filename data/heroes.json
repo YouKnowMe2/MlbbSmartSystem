@@ -1,13 +1,12 @@
 [
-  { "id": 1, "name": "Alucard", "roles": ["Fighter", "Assassin"], "lanes": ["Jungle", "EXP"], "year": 2016, "img": "" },
-  { "id": 2, "name": "Layla", "roles": ["Marksman"], "lanes": ["Gold"], "year": 2016, "img": "" },
-  { "id": 3, "name": "Miya", "roles": ["Marksman"], "lanes": ["Gold"], "year": 2016, "img": "" },
-  { "id": 4, "name": "Tigreal", "roles": ["Tank"], "lanes": ["Roam"], "year": 2016, "img": "" },
-  { "id": 5, "name": "Gusion", "roles": ["Assassin"], "lanes": ["Jungle", "Mid"], "year": 2018, "img": "" },
-  { "id": 6, "name": "Angela", "roles": ["Support"], "lanes": ["Roam"], "year": 2018, "img": "" },
-  { "id": 7, "name": "Chou", "roles": ["Fighter"], "lanes": ["EXP", "Roam"], "year": 2017, "img": "" },
-  { "id": 8, "name": "Alice", "roles": ["Mage"], "lanes": ["EXP", "Mid"], "year": 2016, "img": "" },
-  { "id": 9, "name": "Kimmy", "roles": ["Marksman", "Mage"], "lanes": ["Mid", "Gold"], "year": 2018, "img": "" },
-  { "id": 10, "name": "Balmond", "roles": ["Fighter"], "lanes": ["Jungle", "EXP"], "year": 2016, "img": "" }
+  { "id": 1, "name": "Alucard", "roles": ["Fighter", "Assassin"], "lanes": ["Jungle", "EXP"], "year": 2016, "img": "", "damageType": "physical", "tags": ["sustain", "mobility"] },
+  { "id": 2, "name": "Layla", "roles": ["Marksman"], "lanes": ["Gold"], "year": 2016, "img": "", "damageType": "physical", "tags": ["dps"] },
+  { "id": 3, "name": "Miya", "roles": ["Marksman"], "lanes": ["Gold"], "year": 2016, "img": "", "damageType": "physical", "tags": ["dps"] },
+  { "id": 4, "name": "Tigreal", "roles": ["Tank"], "lanes": ["Roam"], "year": 2016, "img": "", "damageType": "physical", "tags": ["cc", "tank"] },
+  { "id": 5, "name": "Gusion", "roles": ["Assassin"], "lanes": ["Jungle", "Mid"], "year": 2018, "img": "", "damageType": "magic", "tags": ["burst", "mobility"] },
+  { "id": 6, "name": "Angela", "roles": ["Support"], "lanes": ["Roam"], "year": 2018, "img": "", "damageType": "magic", "tags": ["support", "shield"] },
+  { "id": 7, "name": "Chou", "roles": ["Fighter"], "lanes": ["EXP", "Roam"], "year": 2017, "img": "", "damageType": "physical", "tags": ["cc", "mobility"] },
+  { "id": 8, "name": "Alice", "roles": ["Mage"], "lanes": ["EXP", "Mid"], "year": 2016, "img": "", "damageType": "magic", "tags": ["sustain", "aoe"] },
+  { "id": 9, "name": "Kimmy", "roles": ["Marksman", "Mage"], "lanes": ["Mid", "Gold"], "year": 2018, "img": "", "damageType": "hybrid", "tags": ["dps"] },
+  { "id": 10, "name": "Balmond", "roles": ["Fighter"], "lanes": ["Jungle", "EXP"], "year": 2016, "img": "", "damageType": "physical", "tags": ["regen", "aoe"] }
 ]
-

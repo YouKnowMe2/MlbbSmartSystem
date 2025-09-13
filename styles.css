@@ -62,6 +62,55 @@ input[type="search"]:focus, select:focus {
   padding: 18px 0 36px;
 }
 
+.builder {
+  margin-top: 12px;
+  padding: 14px 16px 8px;
+  background: color-mix(in srgb, var(--card) 90%, #0f1622);
+  border: 1px solid var(--ring);
+  border-radius: 12px;
+}
+
+.builder-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr auto;
+  gap: 14px;
+  align-items: end;
+}
+
+.opponents {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(120px, 1fr));
+  gap: 8px;
+}
+
+.builder-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+button#recommend {
+  background: var(--accent);
+  color: #02131c;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.recommendations {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 14px;
+}
+
+.item-list { 
+  display: grid; 
+  gap: 6px; 
+  padding-left: 18px; 
+}
+
 .card {
   background: linear-gradient(180deg, color-mix(in srgb, #1a2230 70%, #0a0e13 30%), var(--card));
   border: 1px solid var(--ring);
@@ -117,4 +166,3 @@ input[type="search"]:focus, select:focus {
 @media (max-width: 720px) {
   .controls { grid-template-columns: 1fr 1fr 1fr auto; }
 }
-

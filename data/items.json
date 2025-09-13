@@ -1,0 +1,104 @@
+[
+  {
+    "id": "antique_cuirass",
+    "name": "Antique Cuirass",
+    "type": "defense",
+    "tags": ["armor", "anti-burst", "physical"],
+    "notes": "Good vs physical burst and skill-spam heroes.",
+    "recs": { "vs": ["physical"], "vsTags": ["burst", "dps"] }
+  },
+  {
+    "id": "blade_armor",
+    "name": "Blade Armor",
+    "type": "defense",
+    "tags": ["armor", "reflect", "physical"],
+    "notes": "Strong vs marksmen and high crit DPS.",
+    "recs": { "vs": ["physical"], "vsTags": ["dps"] }
+  },
+  {
+    "id": "athenas_shield",
+    "name": "Athena's Shield",
+    "type": "defense",
+    "tags": ["mr", "anti-burst", "magic"],
+    "notes": "Mitigates magic burst.",
+    "recs": { "vs": ["magic"], "vsTags": ["burst"] }
+  },
+  {
+    "id": "radiant_armor",
+    "name": "Radiant Armor",
+    "type": "defense",
+    "tags": ["mr", "anti-dps", "magic"],
+    "notes": "Great into sustained magic DPS / DoT.",
+    "recs": { "vs": ["magic"], "vsTags": ["dps", "aoe"] }
+  },
+  {
+    "id": "dominance_ice",
+    "name": "Dominance Ice",
+    "type": "defense",
+    "tags": ["anti-heal", "anti-aspd", "utility"],
+    "notes": "Counters lifesteal, regen, and atk speed.",
+    "recs": { "vsTags": ["sustain", "heal", "dps"] }
+  },
+  {
+    "id": "immortality",
+    "name": "Immortality",
+    "type": "defense",
+    "tags": ["revive", "hp"],
+    "notes": "Late-game safety net.",
+    "recs": { "generic": true }
+  },
+  {
+    "id": "malefic_roar",
+    "name": "Malefic Roar",
+    "type": "offense",
+    "tags": ["phys-pen", "physical"],
+    "notes": "Physical penetration vs armor.",
+    "for": ["physical"],
+    "recs": { "vsDef": ["armor"] }
+  },
+  {
+    "id": "blade_of_despair",
+    "name": "Blade of Despair",
+    "type": "offense",
+    "tags": ["phys-dmg", "burst", "physical"],
+    "notes": "Raw physical damage spike.",
+    "for": ["physical"],
+    "recs": { "generic": true }
+  },
+  {
+    "id": "divine_glaive",
+    "name": "Divine Glaive",
+    "type": "offense",
+    "tags": ["mag-pen", "magic"],
+    "notes": "Magic penetration vs MR.",
+    "for": ["magic"],
+    "recs": { "vsDef": ["mr"] }
+  },
+  {
+    "id": "genius_wand",
+    "name": "Genius Wand",
+    "type": "offense",
+    "tags": ["mag-pen", "utility", "magic"],
+    "notes": "Magic pen shred vs low-mid MR.",
+    "for": ["magic"],
+    "recs": { "generic": true }
+  },
+  {
+    "id": "sea_halberd",
+    "name": "Sea Halberd",
+    "type": "offense",
+    "tags": ["anti-heal", "physical"],
+    "notes": "Grievous wounds vs regen/lifesteal.",
+    "for": ["physical"],
+    "recs": { "vsTags": ["sustain", "heal"] }
+  },
+  {
+    "id": "necklace_of_durance",
+    "name": "Necklace of Durance",
+    "type": "offense",
+    "tags": ["anti-heal", "magic"],
+    "notes": "Anti-heal for magic users.",
+    "for": ["magic"],
+    "recs": { "vsTags": ["sustain", "heal"] }
+  }
+]

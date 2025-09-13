@@ -47,7 +47,25 @@ async function loadHeroes() {
     return data;
   } catch (e) {
     console.info('Using fallback dataset:', e?.message || e);
-    return FALLBACK_HEROES;
+    // Enrich fallback with minimal tags for recommendations
+    return FALLBACK_HEROES.map(h => ({
+      ...h,
+      damageType: h.damageType || (h.roles?.includes('Mage') ? 'magic' : (h.roles?.includes('Marksman') ? 'physical' : 'physical')),
+      tags: h.tags || []
+    }));
+  }
+}
+
+async function loadItems() {
+  try {
+    const res = await fetch('data/items.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    if (!Array.isArray(data) || !data.length) throw new Error('Empty items dataset');
+    return data;
+  } catch (e) {
+    console.warn('Items not available:', e?.message || e);
+    return [];
   }
 }
 
@@ -63,6 +81,86 @@ function populateRoleFilter(heroes) {
     opt.textContent = r;
     roleEl.appendChild(opt);
   }
+}
+
+function populateBuilderSelects(heroes) {
+  const yourHeroEl = qs('#your-hero');
+  const oppEls = qsa('.opponent');
+  if (!yourHeroEl || !oppEls.length) return;
+  const options = ['<option value="">—</option>', ...heroes.map(h => `<option value="${h.id}">${h.name}</option>`)];
+  yourHeroEl.innerHTML = options.join('');
+  oppEls.forEach(sel => sel.innerHTML = options.join(''));
+}
+
+function summarizeOpponents(opponents) {
+  const total = opponents.length || 1;
+  const counts = opponents.reduce((acc, h) => {
+    const dt = h.damageType || 'physical';
+    acc.damage[dt] = (acc.damage[dt] || 0) + 1;
+    for (const t of (h.tags || [])) acc.tags[t] = (acc.tags[t] || 0) + 1;
+    return acc;
+  }, { damage: { physical: 0, magic: 0, hybrid: 0 }, tags: {} });
+  counts.mix = {
+    physical: (counts.damage.physical + 0.5 * counts.damage.hybrid) / total,
+    magic: (counts.damage.magic + 0.5 * counts.damage.hybrid) / total,
+  };
+  return counts;
+}
+
+function recommendDefense(yourHero, opponents, items) {
+  const s = summarizeOpponents(opponents);
+  const picks = [];
+  const pushIf = (pred, ids) => { if (pred) picks.push(...ids); };
+
+  // Magic vs Physical mix
+  pushIf(s.mix.magic >= 0.5, ['athenas_shield', 'radiant_armor']);
+  pushIf(s.mix.physical >= 0.5, ['antique_cuirass', 'blade_armor']);
+
+  // Anti-heal if many sustain/heal tags
+  const sustainPressure = (s.tags['sustain'] || 0) + (s.tags['heal'] || 0) + (s.tags['regen'] || 0);
+  pushIf(sustainPressure >= 1, ['dominance_ice']);
+
+  // Generic safety
+  picks.push('immortality');
+
+  // Map ids to item objects and unique
+  const byId = Object.fromEntries(items.map(i => [i.id, i]));
+  const unique = Array.from(new Set(picks)).map(id => byId[id]).filter(Boolean);
+  return unique;
+}
+
+function recommendOffense(yourHero, opponents, items) {
+  const s = summarizeOpponents(opponents);
+  const picks = [];
+  const heroDmg = yourHero?.damageType || 'physical';
+  const isPhysical = heroDmg === 'physical';
+  const isMagic = heroDmg === 'magic';
+
+  if (isPhysical) {
+    picks.push('blade_of_despair');
+    // Assume armor stacking into tanky comps
+    if ((opponents.filter(h => (h.roles||[]).includes('Tank')).length) >= 1 || s.mix.physical < 0.6) {
+      picks.push('malefic_roar');
+    }
+    // Anti-heal vs sustain
+    const sustainPressure = (s.tags['sustain'] || 0) + (s.tags['heal'] || 0) + (s.tags['regen'] || 0);
+    if (sustainPressure >= 1) picks.push('sea_halberd');
+  } else if (isMagic) {
+    picks.push('genius_wand');
+    if ((opponents.filter(h => (h.roles||[]).includes('Tank')).length) >= 1 || s.mix.magic < 0.6) {
+      picks.push('divine_glaive');
+    }
+    const sustainPressure = (s.tags['sustain'] || 0) + (s.tags['heal'] || 0) + (s.tags['regen'] || 0);
+    if (sustainPressure >= 1) picks.push('necklace_of_durance');
+  }
+
+  const byId = Object.fromEntries(items.map(i => [i.id, i]));
+  const unique = Array.from(new Set(picks)).map(id => byId[id]).filter(Boolean);
+  return unique;
+}
+
+function renderItemList(el, items) {
+  el.innerHTML = items.map(i => `<li title="${i.notes || ''}"><strong>${i.name}</strong> <small class=\"muted\">(${(i.tags||[]).join(', ')})</small></li>`).join('');
 }
 
 function renderCards(list) {
@@ -99,10 +197,31 @@ function applyFilters(heroes) {
 (async function init() {
   const heroes = await loadHeroes();
   populateRoleFilter(heroes);
+  populateBuilderSelects(heroes);
+  const items = await loadItems();
   const render = () => renderCards(applyFilters(heroes));
   searchEl.addEventListener('input', render);
   roleEl.addEventListener('change', render);
   laneEl.addEventListener('change', render);
   render();
+  // Wire up recommender button
+  const yourHeroEl = qs('#your-hero');
+  const oppEls = qsa('.opponent');
+  const btn = qs('#recommend');
+  const defList = qs('#defense-list');
+  const offList = qs('#offense-list');
+  const getHero = (sel) => heroes.find(h => String(h.id) === String(sel.value));
+  btn?.addEventListener('click', () => {
+    const yourHero = getHero(yourHeroEl);
+    const opponents = oppEls.map(getHero).filter(Boolean);
+    if (!yourHero || opponents.length === 0) {
+      defList.innerHTML = '<li>Select your hero and at least one opponent.</li>';
+      offList.innerHTML = '';
+      return;
+    }
+    const def = recommendDefense(yourHero, opponents, items);
+    const off = recommendOffense(yourHero, opponents, items);
+    renderItemList(defList, def);
+    renderItemList(offList, off);
+  });
 })();
-
