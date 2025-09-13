@@ -7,7 +7,8 @@
     "year": null,
     "img": "images/heroes/aamon.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@
     "year": null,
     "img": "images/heroes/akai.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@
     "year": null,
     "img": "images/heroes/aldous.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@
     "year": null,
     "img": "images/heroes/alice.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 5,
@@ -47,7 +51,8 @@
     "year": null,
     "img": "images/heroes/alpha.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 6,
@@ -57,7 +62,8 @@
     "year": null,
     "img": "images/heroes/alucard.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 7,
@@ -67,7 +73,8 @@
     "year": null,
     "img": "images/heroes/angela.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 8,
@@ -77,7 +84,8 @@
     "year": null,
     "img": "images/heroes/argus.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 9,
@@ -87,7 +95,8 @@
     "year": null,
     "img": "images/heroes/arlott.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 10,
@@ -97,7 +106,8 @@
     "year": null,
     "img": "images/heroes/assassin.jpg",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 11,
@@ -107,7 +117,8 @@
     "year": null,
     "img": "images/heroes/atlas.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 12,
@@ -117,7 +128,8 @@
     "year": null,
     "img": "images/heroes/aulus.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 13,
@@ -127,7 +139,8 @@
     "year": null,
     "img": "images/heroes/aurora.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 14,
@@ -137,7 +150,8 @@
     "year": null,
     "img": "images/heroes/badang.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 15,
@@ -147,7 +161,8 @@
     "year": null,
     "img": "images/heroes/balmond.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 16,
@@ -157,7 +172,8 @@
     "year": null,
     "img": "images/heroes/bane.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 17,
@@ -167,7 +183,8 @@
     "year": null,
     "img": "images/heroes/barats.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 18,
@@ -177,7 +194,8 @@
     "year": null,
     "img": "images/heroes/baxia.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 19,
@@ -187,7 +205,8 @@
     "year": null,
     "img": "images/heroes/beatrix.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 20,
@@ -197,7 +216,8 @@
     "year": null,
     "img": "images/heroes/belerick.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 21,
@@ -207,7 +227,8 @@
     "year": null,
     "img": "images/heroes/benedetta.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 22,
@@ -217,7 +238,8 @@
     "year": null,
     "img": "images/heroes/brody.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 23,
@@ -227,7 +249,8 @@
     "year": null,
     "img": "images/heroes/bruno.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 24,
@@ -237,7 +260,8 @@
     "year": null,
     "img": "images/heroes/cancelled_heroes.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "cancelled"
   },
   {
     "id": 25,
@@ -247,7 +271,8 @@
     "year": null,
     "img": "images/heroes/carmilla.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 26,
@@ -257,7 +282,8 @@
     "year": null,
     "img": "images/heroes/cecilion.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 27,
@@ -267,7 +293,8 @@
     "year": null,
     "img": "images/heroes/change.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 28,
@@ -277,7 +304,8 @@
     "year": null,
     "img": "images/heroes/chip.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 29,
@@ -287,7 +315,8 @@
     "year": null,
     "img": "images/heroes/chou.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 30,
@@ -297,7 +326,8 @@
     "year": null,
     "img": "images/heroes/cici.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 31,
@@ -307,7 +337,8 @@
     "year": null,
     "img": "images/heroes/claude.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 32,
@@ -317,7 +348,8 @@
     "year": null,
     "img": "images/heroes/clint.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 33,
@@ -327,7 +359,8 @@
     "year": null,
     "img": "images/heroes/cyclops.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 34,
@@ -337,7 +370,8 @@
     "year": null,
     "img": "images/heroes/diggie.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 35,
@@ -347,7 +381,8 @@
     "year": null,
     "img": "images/heroes/dyrroth.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 36,
@@ -357,7 +392,8 @@
     "year": null,
     "img": "images/heroes/edith.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 37,
@@ -367,7 +403,8 @@
     "year": null,
     "img": "images/heroes/esmeralda.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 38,
@@ -377,7 +414,8 @@
     "year": null,
     "img": "images/heroes/estes.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 39,
@@ -387,7 +425,8 @@
     "year": null,
     "img": "images/heroes/eudora.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 40,
@@ -397,7 +436,8 @@
     "year": null,
     "img": "",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 41,
@@ -407,7 +447,8 @@
     "year": null,
     "img": "images/heroes/fanny.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 42,
@@ -417,7 +458,8 @@
     "year": null,
     "img": "images/heroes/faramis.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 43,
@@ -427,7 +469,8 @@
     "year": null,
     "img": "images/heroes/fighter.jpg",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 44,
@@ -437,7 +480,8 @@
     "year": null,
     "img": "images/heroes/floryn.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 45,
@@ -447,7 +491,8 @@
     "year": null,
     "img": "images/heroes/franco.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 46,
@@ -457,7 +502,8 @@
     "year": null,
     "img": "images/heroes/fredrinn.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 47,
@@ -467,7 +513,8 @@
     "year": null,
     "img": "images/heroes/freya.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 48,
@@ -477,7 +524,8 @@
     "year": null,
     "img": "images/heroes/gatotkaca.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 49,
@@ -487,7 +535,8 @@
     "year": null,
     "img": "images/heroes/gloo.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 50,
@@ -497,7 +546,8 @@
     "year": null,
     "img": "",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 51,
@@ -507,7 +557,8 @@
     "year": null,
     "img": "images/heroes/gord.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 52,
@@ -517,7 +568,8 @@
     "year": null,
     "img": "images/heroes/granger.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 53,
@@ -527,7 +579,8 @@
     "year": null,
     "img": "images/heroes/grock.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 54,
@@ -537,7 +590,8 @@
     "year": null,
     "img": "images/heroes/guinevere.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 55,
@@ -547,7 +601,8 @@
     "year": null,
     "img": "images/heroes/gusion.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 56,
@@ -557,7 +612,8 @@
     "year": null,
     "img": "images/heroes/hanabi.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 57,
@@ -567,7 +623,8 @@
     "year": null,
     "img": "images/heroes/hanzo.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 58,
@@ -577,7 +634,8 @@
     "year": null,
     "img": "images/heroes/harith.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 59,
@@ -587,7 +645,8 @@
     "year": null,
     "img": "images/heroes/harley.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 60,
@@ -597,7 +656,8 @@
     "year": null,
     "img": "images/heroes/hayabusa.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 61,
@@ -607,7 +667,8 @@
     "year": null,
     "img": "images/heroes/heavenly_artifacts.jpg",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 62,
@@ -617,7 +678,8 @@
     "year": null,
     "img": "images/heroes/helcurt.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 63,
@@ -627,7 +689,8 @@
     "year": null,
     "img": "",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 64,
@@ -637,7 +700,8 @@
     "year": null,
     "img": "images/heroes/heroes.jpg",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 65,
@@ -647,7 +711,8 @@
     "year": null,
     "img": "images/heroes/hilda.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 66,
@@ -657,7 +722,8 @@
     "year": null,
     "img": "images/heroes/hylos.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 67,
@@ -667,7 +733,8 @@
     "year": null,
     "img": "images/heroes/irithel.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 68,
@@ -677,7 +744,8 @@
     "year": null,
     "img": "images/heroes/ixia.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 69,
@@ -687,7 +755,8 @@
     "year": null,
     "img": "images/heroes/jawhead.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 70,
@@ -697,7 +766,8 @@
     "year": null,
     "img": "images/heroes/johnson.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 71,
@@ -707,7 +777,8 @@
     "year": null,
     "img": "images/heroes/joy.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 72,
@@ -717,7 +788,8 @@
     "year": null,
     "img": "images/heroes/julian.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 73,
@@ -727,7 +799,8 @@
     "year": null,
     "img": "",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 74,
@@ -737,7 +810,8 @@
     "year": null,
     "img": "images/heroes/kadita.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 75,
@@ -747,7 +821,8 @@
     "year": null,
     "img": "images/heroes/kagura.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 76,
@@ -757,7 +832,8 @@
     "year": null,
     "img": "images/heroes/kaja.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 77,
@@ -767,7 +843,8 @@
     "year": null,
     "img": "images/heroes/kalea.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 78,
@@ -777,7 +854,8 @@
     "year": null,
     "img": "images/heroes/karina.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 79,
@@ -787,7 +865,8 @@
     "year": null,
     "img": "images/heroes/karrie.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 80,
@@ -797,7 +876,8 @@
     "year": null,
     "img": "images/heroes/khaleed.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 81,
@@ -807,7 +887,8 @@
     "year": null,
     "img": "images/heroes/khufra.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 82,
@@ -817,7 +898,8 @@
     "year": null,
     "img": "images/heroes/kimmy.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 83,
@@ -827,7 +909,8 @@
     "year": null,
     "img": "images/heroes/lancelot.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 84,
@@ -837,7 +920,8 @@
     "year": null,
     "img": "images/heroes/lapu_lapu.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 85,
@@ -847,7 +931,8 @@
     "year": null,
     "img": "images/heroes/layla.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 86,
@@ -857,7 +942,8 @@
     "year": null,
     "img": "images/heroes/leomord.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 87,
@@ -867,7 +953,8 @@
     "year": null,
     "img": "images/heroes/lesley.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 88,
@@ -877,7 +964,8 @@
     "year": null,
     "img": "images/heroes/lightborn.jpg",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 89,
@@ -887,7 +975,8 @@
     "year": null,
     "img": "images/heroes/ling.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 90,
@@ -897,7 +986,8 @@
     "year": null,
     "img": "",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 91,
@@ -907,7 +997,8 @@
     "year": null,
     "img": "images/heroes/lolita.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 92,
@@ -917,7 +1008,8 @@
     "year": null,
     "img": "images/heroes/lukas.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 93,
@@ -927,7 +1019,8 @@
     "year": null,
     "img": "images/heroes/lunox.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 94,
@@ -937,7 +1030,8 @@
     "year": null,
     "img": "images/heroes/luo_yi.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 95,
@@ -947,7 +1041,8 @@
     "year": null,
     "img": "images/heroes/lylia.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 96,
@@ -957,7 +1052,8 @@
     "year": null,
     "img": "images/heroes/mage.jpg",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 97,
@@ -967,7 +1063,8 @@
     "year": null,
     "img": "images/heroes/marksman.jpg",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 98,
@@ -977,7 +1074,8 @@
     "year": null,
     "img": "images/heroes/martis.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 99,
@@ -987,7 +1085,8 @@
     "year": null,
     "img": "images/heroes/masha.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 100,
@@ -997,7 +1096,8 @@
     "year": null,
     "img": "images/heroes/mathilda.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 101,
@@ -1007,7 +1107,8 @@
     "year": null,
     "img": "images/heroes/melissa.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 102,
@@ -1017,7 +1118,8 @@
     "year": null,
     "img": "",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 103,
@@ -1027,7 +1129,8 @@
     "year": null,
     "img": "images/heroes/minotaur.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 104,
@@ -1037,7 +1140,8 @@
     "year": null,
     "img": "images/heroes/minsitthar.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 105,
@@ -1047,7 +1151,8 @@
     "year": null,
     "img": "images/heroes/miya.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 106,
@@ -1057,7 +1162,8 @@
     "year": null,
     "img": "images/heroes/moskov.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 107,
@@ -1067,7 +1173,8 @@
     "year": null,
     "img": "images/heroes/nana.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 108,
@@ -1077,7 +1184,8 @@
     "year": null,
     "img": "images/heroes/natalia.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 109,
@@ -1087,7 +1195,8 @@
     "year": null,
     "img": "images/heroes/natan.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 110,
@@ -1097,7 +1206,8 @@
     "year": null,
     "img": "images/heroes/nolan.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 111,
@@ -1107,7 +1217,8 @@
     "year": null,
     "img": "images/heroes/novaria.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 112,
@@ -1117,7 +1228,8 @@
     "year": null,
     "img": "images/heroes/obsidia.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 113,
@@ -1127,7 +1239,8 @@
     "year": null,
     "img": "images/heroes/odette.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 114,
@@ -1137,7 +1250,8 @@
     "year": null,
     "img": "images/heroes/oriental_fighters.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 115,
@@ -1147,7 +1261,8 @@
     "year": null,
     "img": "images/heroes/paquito.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 116,
@@ -1157,7 +1272,8 @@
     "year": null,
     "img": "images/heroes/pharsa.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 117,
@@ -1167,7 +1283,8 @@
     "year": null,
     "img": "images/heroes/phoveus.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 118,
@@ -1177,7 +1294,8 @@
     "year": null,
     "img": "images/heroes/popol_and_kupa.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 119,
@@ -1187,7 +1305,8 @@
     "year": null,
     "img": "images/heroes/rafaela.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 120,
@@ -1197,7 +1316,8 @@
     "year": null,
     "img": "",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 121,
@@ -1207,7 +1327,8 @@
     "year": null,
     "img": "images/heroes/roger.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 122,
@@ -1217,7 +1338,8 @@
     "year": null,
     "img": "images/heroes/ruby.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 123,
@@ -1227,7 +1349,8 @@
     "year": null,
     "img": "images/heroes/s_a_b_e_r.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 124,
@@ -1237,7 +1360,8 @@
     "year": null,
     "img": "images/heroes/saber.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 125,
@@ -1247,7 +1371,8 @@
     "year": null,
     "img": "images/heroes/selena.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 126,
@@ -1257,7 +1382,8 @@
     "year": null,
     "img": "images/heroes/side_laner.jpg",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 127,
@@ -1267,7 +1393,8 @@
     "year": null,
     "img": "images/heroes/silvanna.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 128,
@@ -1277,7 +1404,8 @@
     "year": null,
     "img": "images/heroes/sun.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 129,
@@ -1287,7 +1415,8 @@
     "year": null,
     "img": "images/heroes/support.jpg",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 130,
@@ -1297,7 +1426,8 @@
     "year": null,
     "img": "images/heroes/suyou.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 131,
@@ -1307,7 +1437,8 @@
     "year": null,
     "img": "images/heroes/tank.jpg",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 132,
@@ -1317,7 +1448,8 @@
     "year": null,
     "img": "images/heroes/terizla.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 133,
@@ -1327,7 +1459,8 @@
     "year": null,
     "img": "images/heroes/thamuz.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 134,
@@ -1337,7 +1470,8 @@
     "year": null,
     "img": "images/heroes/the_exorcists_member_introduction.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 135,
@@ -1347,7 +1481,8 @@
     "year": null,
     "img": "images/heroes/tigreal.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 136,
@@ -1357,7 +1492,8 @@
     "year": null,
     "img": "images/heroes/uranus.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 137,
@@ -1367,7 +1503,8 @@
     "year": null,
     "img": "images/heroes/v_e_n_o_m.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 138,
@@ -1377,7 +1514,8 @@
     "year": null,
     "img": "images/heroes/vale.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 139,
@@ -1387,7 +1525,8 @@
     "year": null,
     "img": "images/heroes/valentina.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 140,
@@ -1397,7 +1536,8 @@
     "year": null,
     "img": "images/heroes/valir.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 141,
@@ -1407,7 +1547,8 @@
     "year": null,
     "img": "images/heroes/vexana.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 142,
@@ -1417,7 +1558,8 @@
     "year": null,
     "img": "images/heroes/wanwan.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 143,
@@ -1427,7 +1569,8 @@
     "year": null,
     "img": "images/heroes/x_borg.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 144,
@@ -1437,7 +1580,8 @@
     "year": null,
     "img": "images/heroes/xavier.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 145,
@@ -1447,7 +1591,8 @@
     "year": null,
     "img": "images/heroes/yi_sun_shin.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 146,
@@ -1457,7 +1602,8 @@
     "year": null,
     "img": "images/heroes/yin.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 147,
@@ -1467,7 +1613,8 @@
     "year": null,
     "img": "images/heroes/yu_zhong.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 148,
@@ -1477,7 +1624,8 @@
     "year": null,
     "img": "images/heroes/yve.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 149,
@@ -1487,7 +1635,8 @@
     "year": null,
     "img": "images/heroes/zetian.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 150,
@@ -1497,7 +1646,8 @@
     "year": null,
     "img": "images/heroes/zhask.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 151,
@@ -1507,7 +1657,8 @@
     "year": null,
     "img": "images/heroes/zhuxin.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   },
   {
     "id": 152,
@@ -1517,6 +1668,7 @@
     "year": null,
     "img": "images/heroes/zilong.png",
     "damageType": "",
-    "tags": []
+    "tags": [],
+    "status": "present"
   }
 ]
