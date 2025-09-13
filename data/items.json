@@ -5,7 +5,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/active_conceal.png"
+    "icon": "images/items/active_conceal.png",
+    "status": "present"
   },
   {
     "id": "allow_throw",
@@ -13,7 +14,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/allow_throw.png"
+    "icon": "images/items/allow_throw.png",
+    "status": "present"
   },
   {
     "id": "antique_cuirass",
@@ -21,7 +23,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/antique_cuirass.png"
+    "icon": "images/items/antique_cuirass.png",
+    "status": "present"
   },
   {
     "id": "arcane_boots",
@@ -29,7 +32,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/arcane_boots.png"
+    "icon": "images/items/arcane_boots.png",
+    "status": "present"
   },
   {
     "id": "ares_belt",
@@ -37,7 +41,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/ares_belt.png"
+    "icon": "images/items/ares_belt.png",
+    "status": "present"
   },
   {
     "id": "athenas_shield",
@@ -45,7 +50,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/athenas_shield.png"
+    "icon": "images/items/athenas_shield.png",
+    "status": "present"
   },
   {
     "id": "awe_mask",
@@ -53,7 +59,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/awe_mask.png"
+    "icon": "images/items/awe_mask.png",
+    "status": "present"
   },
   {
     "id": "azure_blade",
@@ -61,7 +68,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/azure_blade.png"
+    "icon": "images/items/azure_blade.png",
+    "status": "present"
   },
   {
     "id": "beast_killer",
@@ -69,7 +77,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/beast_killer.png"
+    "icon": "images/items/beast_killer.png",
+    "status": "removed"
   },
   {
     "id": "berserkers_fury",
@@ -77,7 +86,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/berserkers_fury.png"
+    "icon": "images/items/berserkers_fury.png",
+    "status": "present"
   },
   {
     "id": "black_ice_shield",
@@ -85,7 +95,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/black_ice_shield.png"
+    "icon": "images/items/black_ice_shield.png",
+    "status": "present"
   },
   {
     "id": "blade_armor",
@@ -93,7 +104,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/blade_armor.png"
+    "icon": "images/items/blade_armor.png",
+    "status": "present"
   },
   {
     "id": "blade_of_despair",
@@ -101,7 +113,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/blade_of_despair.png"
+    "icon": "images/items/blade_of_despair.png",
+    "status": "present"
   },
   {
     "id": "blade_of_the_heptaseas",
@@ -109,7 +122,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/blade_of_the_heptaseas.png"
+    "icon": "images/items/blade_of_the_heptaseas.png",
+    "status": "present"
   },
   {
     "id": "blood_wings",
@@ -117,7 +131,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/blood_wings.png"
+    "icon": "images/items/blood_wings.png",
+    "status": "present"
   },
   {
     "id": "bloodlust_axe",
@@ -125,7 +140,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/bloodlust_axe.png"
+    "icon": "images/items/bloodlust_axe.png",
+    "status": "removed"
   },
   {
     "id": "bloody_retribution",
@@ -133,7 +149,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/bloody_retribution.png"
+    "icon": "images/items/bloody_retribution.png",
+    "status": "present"
   },
   {
     "id": "book_of_sages",
@@ -141,7 +158,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/book_of_sages.png"
+    "icon": "images/items/book_of_sages.png",
+    "status": "present"
   },
   {
     "id": "boots",
@@ -149,7 +167,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/boots.png"
+    "icon": "images/items/boots.png",
+    "status": "present"
   },
   {
     "id": "broken_heart",
@@ -157,7 +176,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/broken_heart.png"
+    "icon": "images/items/broken_heart.png",
+    "status": "present"
   },
   {
     "id": "brute_force_breastplate",
@@ -165,7 +185,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/brute_force_breastplate.png"
+    "icon": "images/items/brute_force_breastplate.png",
+    "status": "present"
   },
   {
     "id": "bud_of_hope",
@@ -173,7 +194,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/bud_of_hope.png"
+    "icon": "images/items/bud_of_hope.png",
+    "status": "present"
   },
   {
     "id": "calamity_reaper",
@@ -181,7 +203,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/calamity_reaper.png"
+    "icon": "images/items/calamity_reaper.png",
+    "status": "removed"
   },
   {
     "id": "clock_of_destiny",
@@ -189,7 +212,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/clock_of_destiny.png"
+    "icon": "images/items/clock_of_destiny.png",
+    "status": "present"
   },
   {
     "id": "concentrated_energy",
@@ -197,7 +221,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/concentrated_energy.png"
+    "icon": "images/items/concentrated_energy.png",
+    "status": "present"
   },
   {
     "id": "corrosion_scythe",
@@ -205,7 +230,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/corrosion_scythe.png"
+    "icon": "images/items/corrosion_scythe.png",
+    "status": "present"
   },
   {
     "id": "courage_bulwark",
@@ -213,7 +239,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/courage_bulwark.png"
+    "icon": "images/items/courage_bulwark.png",
+    "status": "removed"
   },
   {
     "id": "courage_mask",
@@ -221,7 +248,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/courage_mask.png"
+    "icon": "images/items/courage_mask.png",
+    "status": "present"
   },
   {
     "id": "curse_sword",
@@ -229,7 +257,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/curse_sword.png"
+    "icon": "images/items/curse_sword.png",
+    "status": "removed"
   },
   {
     "id": "cursed_helmet",
@@ -237,7 +266,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/cursed_helmet.png"
+    "icon": "images/items/cursed_helmet.png",
+    "status": "present"
   },
   {
     "id": "dagger",
@@ -245,7 +275,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/dagger.png"
+    "icon": "images/items/dagger.png",
+    "status": "present"
   },
   {
     "id": "deadly_blade",
@@ -253,7 +284,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/deadly_blade.png"
+    "icon": "images/items/deadly_blade.png",
+    "status": "removed"
   },
   {
     "id": "defense_items",
@@ -261,7 +293,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/defense_items.png"
+    "icon": "images/items/defense_items.png",
+    "status": "present"
   },
   {
     "id": "demon_hunter_sword",
@@ -269,7 +302,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/demon_hunter_sword.png"
+    "icon": "images/items/demon_hunter_sword.png",
+    "status": "present"
   },
   {
     "id": "demon_shoes",
@@ -277,7 +311,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/demon_shoes.png"
+    "icon": "images/items/demon_shoes.png",
+    "status": "present"
   },
   {
     "id": "divine_glaive",
@@ -285,7 +320,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/divine_glaive.png"
+    "icon": "images/items/divine_glaive.png",
+    "status": "present"
   },
   {
     "id": "dominance_ice",
@@ -293,7 +329,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/dominance_ice.png"
+    "icon": "images/items/dominance_ice.png",
+    "status": "present"
   },
   {
     "id": "dreadnaught_armor",
@@ -301,7 +338,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/dreadnaught_armor.png"
+    "icon": "images/items/dreadnaught_armor.png",
+    "status": "present"
   },
   {
     "id": "elegant_gem",
@@ -309,7 +347,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/elegant_gem.png"
+    "icon": "images/items/elegant_gem.png",
+    "status": "present"
   },
   {
     "id": "enchanted_talisman",
@@ -317,7 +356,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/enchanted_talisman.png"
+    "icon": "images/items/enchanted_talisman.png",
+    "status": "present"
   },
   {
     "id": "endless_battle",
@@ -325,7 +365,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/endless_battle.png"
+    "icon": "images/items/endless_battle.png",
+    "status": "present"
   },
   {
     "id": "evil_hunter",
@@ -333,7 +374,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/evil_hunter.png"
+    "icon": "images/items/evil_hunter.png",
+    "status": "removed"
   },
   {
     "id": "exotic_veil",
@@ -341,7 +383,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/exotic_veil.png"
+    "icon": "images/items/exotic_veil.png",
+    "status": "present"
   },
   {
     "id": "expert_gloves",
@@ -349,7 +392,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/expert_gloves.png"
+    "icon": "images/items/expert_gloves.png",
+    "status": "present"
   },
   {
     "id": "feather_of_heaven",
@@ -357,7 +401,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/feather_of_heaven.png"
+    "icon": "images/items/feather_of_heaven.png",
+    "status": "present"
   },
   {
     "id": "flame_retribution",
@@ -365,7 +410,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/flame_retribution.png"
+    "icon": "images/items/flame_retribution.png",
+    "status": "present"
   },
   {
     "id": "flask_of_the_oasis",
@@ -373,7 +419,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/flask_of_the_oasis.png"
+    "icon": "images/items/flask_of_the_oasis.png",
+    "status": "present"
   },
   {
     "id": "fleeting_time",
@@ -381,7 +428,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/fleeting_time.png"
+    "icon": "images/items/fleeting_time.png",
+    "status": "present"
   },
   {
     "id": "flower_of_hope",
@@ -389,7 +437,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/flower_of_hope.png"
+    "icon": "images/items/flower_of_hope.png",
+    "status": "present"
   },
   {
     "id": "fury_hammer",
@@ -397,7 +446,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/fury_hammer.png"
+    "icon": "images/items/fury_hammer.png",
+    "status": "present"
   },
   {
     "id": "genius_wand",
@@ -405,7 +455,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/genius_wand.png"
+    "icon": "images/items/genius_wand.png",
+    "status": "present"
   },
   {
     "id": "glowing_wand",
@@ -413,7 +464,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/glowing_wand.png"
+    "icon": "images/items/glowing_wand.png",
+    "status": "present"
   },
   {
     "id": "gold",
@@ -421,7 +473,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/gold.png"
+    "icon": "images/items/gold.png",
+    "status": "present"
   },
   {
     "id": "golden_staff",
@@ -429,7 +482,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/golden_staff.png"
+    "icon": "images/items/golden_staff.png",
+    "status": "present"
   },
   {
     "id": "great_dragon_spear",
@@ -437,7 +491,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/great_dragon_spear.png"
+    "icon": "images/items/great_dragon_spear.png",
+    "status": "present"
   },
   {
     "id": "guardian_helmet",
@@ -445,7 +500,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/guardian_helmet.png"
+    "icon": "images/items/guardian_helmet.png",
+    "status": "present"
   },
   {
     "id": "haas_claws",
@@ -453,7 +509,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/haas_claws.png"
+    "icon": "images/items/haas_claws.png",
+    "status": "present"
   },
   {
     "id": "healing_necklace",
@@ -461,7 +518,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/healing_necklace.png"
+    "icon": "images/items/healing_necklace.png",
+    "status": "present"
   },
   {
     "id": "heros_ring",
@@ -469,7 +527,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/heros_ring.png"
+    "icon": "images/items/heros_ring.png",
+    "status": "present"
   },
   {
     "id": "holy_crystal",
@@ -477,7 +536,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/holy_crystal.png"
+    "icon": "images/items/holy_crystal.png",
+    "status": "present"
   },
   {
     "id": "hunter_strike",
@@ -485,7 +545,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/hunter_strike.png"
+    "icon": "images/items/hunter_strike.png",
+    "status": "present"
   },
   {
     "id": "hunters_knife",
@@ -493,7 +554,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/hunters_knife.png"
+    "icon": "images/items/hunters_knife.png",
+    "status": "removed"
   },
   {
     "id": "ice_queen_wand",
@@ -501,7 +563,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/ice_queen_wand.png"
+    "icon": "images/items/ice_queen_wand.png",
+    "status": "present"
   },
   {
     "id": "ice_retribution",
@@ -509,7 +572,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/ice_retribution.png"
+    "icon": "images/items/ice_retribution.png",
+    "status": "present"
   },
   {
     "id": "immortality",
@@ -517,7 +581,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/immortality.png"
+    "icon": "images/items/immortality.png",
+    "status": "present"
   },
   {
     "id": "iron_hunting_bow",
@@ -525,7 +590,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/iron_hunting_bow.png"
+    "icon": "images/items/iron_hunting_bow.png",
+    "status": "present"
   },
   {
     "id": "iron_mask",
@@ -533,7 +599,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/iron_mask.png"
+    "icon": "images/items/iron_mask.png",
+    "status": "removed"
   },
   {
     "id": "javelin",
@@ -541,7 +608,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/javelin.png"
+    "icon": "images/items/javelin.png",
+    "status": "present"
   },
   {
     "id": "knife",
@@ -549,7 +617,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/knife.png"
+    "icon": "images/items/knife.png",
+    "status": "present"
   },
   {
     "id": "lantern_of_hope",
@@ -557,7 +626,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/lantern_of_hope.png"
+    "icon": "images/items/lantern_of_hope.png",
+    "status": "present"
   },
   {
     "id": "leather_jerkin",
@@ -565,7 +635,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/leather_jerkin.png"
+    "icon": "images/items/leather_jerkin.png",
+    "status": "present"
   },
   {
     "id": "legion_sword",
@@ -573,7 +644,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/legion_sword.png"
+    "icon": "images/items/legion_sword.png",
+    "status": "present"
   },
   {
     "id": "lightning_truncheon",
@@ -581,7 +653,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/lightning_truncheon.png"
+    "icon": "images/items/lightning_truncheon.png",
+    "status": "present"
   },
   {
     "id": "magic_blade",
@@ -589,7 +662,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/magic_blade.png"
+    "icon": "images/items/magic_blade.png",
+    "status": "present"
   },
   {
     "id": "magic_necklace",
@@ -597,7 +671,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/magic_necklace.png"
+    "icon": "images/items/magic_necklace.png",
+    "status": "present"
   },
   {
     "id": "magic_potion",
@@ -605,7 +680,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/magic_potion.png"
+    "icon": "images/items/magic_potion.png",
+    "status": "present"
   },
   {
     "id": "magic_resist_cloak",
@@ -613,7 +689,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/magic_resist_cloak.png"
+    "icon": "images/items/magic_resist_cloak.png",
+    "status": "present"
   },
   {
     "id": "magic_shoes",
@@ -621,7 +698,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/magic_shoes.png"
+    "icon": "images/items/magic_shoes.png",
+    "status": "present"
   },
   {
     "id": "magic_wand",
@@ -629,7 +707,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/magic_wand.png"
+    "icon": "images/items/magic_wand.png",
+    "status": "present"
   },
   {
     "id": "malefic_gun",
@@ -637,7 +716,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/malefic_gun.png"
+    "icon": "images/items/malefic_gun.png",
+    "status": "present"
   },
   {
     "id": "malefic_roar",
@@ -645,7 +725,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/malefic_roar.png"
+    "icon": "images/items/malefic_roar.png",
+    "status": "present"
   },
   {
     "id": "molten_essence",
@@ -653,7 +734,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/molten_essence.png"
+    "icon": "images/items/molten_essence.png",
+    "status": "present"
   },
   {
     "id": "movement_items",
@@ -661,7 +743,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/movement_items.png"
+    "icon": "images/items/movement_items.png",
+    "status": "present"
   },
   {
     "id": "mystery_codex",
@@ -669,7 +752,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/mystery_codex.png"
+    "icon": "images/items/mystery_codex.png",
+    "status": "present"
   },
   {
     "id": "mystic_container",
@@ -677,7 +761,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/mystic_container.png"
+    "icon": "images/items/mystic_container.png",
+    "status": "present"
   },
   {
     "id": "necklace_of_durance",
@@ -685,7 +770,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/necklace_of_durance.png"
+    "icon": "images/items/necklace_of_durance.png",
+    "status": "present"
   },
   {
     "id": "nimble_blade",
@@ -693,7 +779,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/nimble_blade.png"
+    "icon": "images/items/nimble_blade.png",
+    "status": "removed"
   },
   {
     "id": "ogre_tomahawk",
@@ -701,7 +788,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/ogre_tomahawk.png"
+    "icon": "images/items/ogre_tomahawk.png",
+    "status": "present"
   },
   {
     "id": "oracle",
@@ -709,7 +797,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/oracle.png"
+    "icon": "images/items/oracle.png",
+    "status": "present"
   },
   {
     "id": "passive_dire_hit",
@@ -717,7 +806,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/passive_dire_hit.png"
+    "icon": "images/items/passive_dire_hit.png",
+    "status": "present"
   },
   {
     "id": "passive_encourage",
@@ -725,7 +815,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/passive_encourage.png"
+    "icon": "images/items/passive_encourage.png",
+    "status": "present"
   },
   {
     "id": "passive_favor",
@@ -733,7 +824,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/passive_favor.png"
+    "icon": "images/items/passive_favor.png",
+    "status": "present"
   },
   {
     "id": "pillager_axe",
@@ -741,7 +833,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/pillager_axe.png"
+    "icon": "images/items/pillager_axe.png",
+    "status": "removed"
   },
   {
     "id": "power_crystal",
@@ -749,7 +842,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/power_crystal.png"
+    "icon": "images/items/power_crystal.png",
+    "status": "present"
   },
   {
     "id": "power_potion",
@@ -757,7 +851,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/power_potion.png"
+    "icon": "images/items/power_potion.png",
+    "status": "present"
   },
   {
     "id": "queens_wings",
@@ -765,7 +860,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/queens_wings.png"
+    "icon": "images/items/queens_wings.png",
+    "status": "present"
   },
   {
     "id": "radiant_armor",
@@ -773,7 +869,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/radiant_armor.png"
+    "icon": "images/items/radiant_armor.png",
+    "status": "present"
   },
   {
     "id": "rapid_boots",
@@ -781,7 +878,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/rapid_boots.png"
+    "icon": "images/items/rapid_boots.png",
+    "status": "present"
   },
   {
     "id": "raptor_machete",
@@ -789,7 +887,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/raptor_machete.png"
+    "icon": "images/items/raptor_machete.png",
+    "status": "removed"
   },
   {
     "id": "regular_spear",
@@ -797,7 +896,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/regular_spear.png"
+    "icon": "images/items/regular_spear.png",
+    "status": "present"
   },
   {
     "id": "resonating_heart",
@@ -805,7 +905,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/resonating_heart.png"
+    "icon": "images/items/resonating_heart.png",
+    "status": "present"
   },
   {
     "id": "rock_potion",
@@ -813,7 +914,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/rock_potion.png"
+    "icon": "images/items/rock_potion.png",
+    "status": "present"
   },
   {
     "id": "rogue_meteor",
@@ -821,7 +923,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/rogue_meteor.png"
+    "icon": "images/items/rogue_meteor.png",
+    "status": "present"
   },
   {
     "id": "rose_gold_meteor",
@@ -829,7 +932,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/rose_gold_meteor.png"
+    "icon": "images/items/rose_gold_meteor.png",
+    "status": "present"
   },
   {
     "id": "scarlet_phantom",
@@ -837,7 +941,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/scarlet_phantom.png"
+    "icon": "images/items/scarlet_phantom.png",
+    "status": "removed"
   },
   {
     "id": "sea_halberd",
@@ -845,7 +950,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/sea_halberd.png"
+    "icon": "images/items/sea_halberd.png",
+    "status": "present"
   },
   {
     "id": "shadow_mask",
@@ -853,7 +959,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/shadow_mask.png"
+    "icon": "images/items/shadow_mask.png",
+    "status": "present"
   },
   {
     "id": "shadow_twinblades",
@@ -861,7 +968,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/shadow_twinblades.png"
+    "icon": "images/items/shadow_twinblades.png",
+    "status": "removed"
   },
   {
     "id": "shimmering_lantern",
@@ -869,7 +977,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/shimmering_lantern.png"
+    "icon": "images/items/shimmering_lantern.png",
+    "status": "present"
   },
   {
     "id": "silence_robe",
@@ -877,7 +986,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/silence_robe.png"
+    "icon": "images/items/silence_robe.png",
+    "status": "present"
   },
   {
     "id": "sky_piercer",
@@ -885,7 +995,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/sky_piercer.png"
+    "icon": "images/items/sky_piercer.png",
+    "status": "present"
   },
   {
     "id": "soul_scroll",
@@ -893,7 +1004,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/soul_scroll.png"
+    "icon": "images/items/soul_scroll.png",
+    "status": "removed"
   },
   {
     "id": "spirit_wheel",
@@ -901,7 +1013,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/spirit_wheel.png"
+    "icon": "images/items/spirit_wheel.png",
+    "status": "removed"
   },
   {
     "id": "star_shard",
@@ -909,7 +1022,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/star_shard.png"
+    "icon": "images/items/star_shard.png",
+    "status": "removed"
   },
   {
     "id": "starlium_scythe",
@@ -917,7 +1031,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/starlium_scythe.png"
+    "icon": "images/items/starlium_scythe.png",
+    "status": "present"
   },
   {
     "id": "steel_legplates",
@@ -925,7 +1040,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/steel_legplates.png"
+    "icon": "images/items/steel_legplates.png",
+    "status": "present"
   },
   {
     "id": "swift_boots",
@@ -933,7 +1049,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/swift_boots.png"
+    "icon": "images/items/swift_boots.png",
+    "status": "present"
   },
   {
     "id": "swift_crossbow",
@@ -941,7 +1058,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/swift_crossbow.png"
+    "icon": "images/items/swift_crossbow.png",
+    "status": "present"
   },
   {
     "id": "throw_forbidden",
@@ -949,7 +1067,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/throw_forbidden.png"
+    "icon": "images/items/throw_forbidden.png",
+    "status": "present"
   },
   {
     "id": "thunder_belt",
@@ -957,7 +1076,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/thunder_belt.png"
+    "icon": "images/items/thunder_belt.png",
+    "status": "present"
   },
   {
     "id": "tome_of_evil",
@@ -965,7 +1085,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/tome_of_evil.png"
+    "icon": "images/items/tome_of_evil.png",
+    "status": "present"
   },
   {
     "id": "tough_boots",
@@ -973,7 +1094,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/tough_boots.png"
+    "icon": "images/items/tough_boots.png",
+    "status": "present"
   },
   {
     "id": "twilight_armor",
@@ -981,7 +1103,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/twilight_armor.png"
+    "icon": "images/items/twilight_armor.png",
+    "status": "present"
   },
   {
     "id": "vampire_mallet",
@@ -989,7 +1112,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/vampire_mallet.png"
+    "icon": "images/items/vampire_mallet.png",
+    "status": "present"
   },
   {
     "id": "vitality_crystal",
@@ -997,7 +1121,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/vitality_crystal.png"
+    "icon": "images/items/vitality_crystal.png",
+    "status": "present"
   },
   {
     "id": "war_axe",
@@ -1005,7 +1130,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/war_axe.png"
+    "icon": "images/items/war_axe.png",
+    "status": "present"
   },
   {
     "id": "warrior_boots",
@@ -1013,7 +1139,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/warrior_boots.png"
+    "icon": "images/items/warrior_boots.png",
+    "status": "present"
   },
   {
     "id": "wind_of_nature",
@@ -1021,7 +1148,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/wind_of_nature.png"
+    "icon": "images/items/wind_of_nature.png",
+    "status": "present"
   },
   {
     "id": "windtalker",
@@ -1029,7 +1157,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/windtalker.png"
+    "icon": "images/items/windtalker.png",
+    "status": "removed"
   },
   {
     "id": "winter_crown",
@@ -1037,7 +1166,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/winter_crown.png"
+    "icon": "images/items/winter_crown.png",
+    "status": "present"
   },
   {
     "id": "wishing_lantern",
@@ -1045,7 +1175,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/wishing_lantern.png"
+    "icon": "images/items/wishing_lantern.png",
+    "status": "present"
   },
   {
     "id": "wizard_boots",
@@ -1053,7 +1184,8 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/wizard_boots.png"
+    "icon": "images/items/wizard_boots.png",
+    "status": "removed"
   },
   {
     "id": "wooden_mask",
@@ -1061,6 +1193,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "images/items/wooden_mask.png"
+    "icon": "images/items/wooden_mask.png",
+    "status": "present"
   }
 ]
