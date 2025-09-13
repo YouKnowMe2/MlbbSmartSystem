@@ -99,17 +99,6 @@
     "status": "present"
   },
   {
-    "id": 10,
-    "name": "Assassin",
-    "roles": [],
-    "lanes": [],
-    "year": null,
-    "img": "images/heroes/assassin.jpg",
-    "damageType": "",
-    "tags": [],
-    "status": "present"
-  },
-  {
     "id": 11,
     "name": "Atlas",
     "roles": [],
@@ -251,17 +240,6 @@
     "damageType": "",
     "tags": [],
     "status": "present"
-  },
-  {
-    "id": 24,
-    "name": "Cancelled heroes",
-    "roles": [],
-    "lanes": [],
-    "year": null,
-    "img": "images/heroes/cancelled_heroes.png",
-    "damageType": "",
-    "tags": [],
-    "status": "cancelled"
   },
   {
     "id": 25,
@@ -462,17 +440,6 @@
     "status": "present"
   },
   {
-    "id": 43,
-    "name": "Fighter",
-    "roles": [],
-    "lanes": [],
-    "year": null,
-    "img": "images/heroes/fighter.jpg",
-    "damageType": "",
-    "tags": [],
-    "status": "present"
-  },
-  {
     "id": 44,
     "name": "Floryn",
     "roles": [],
@@ -660,45 +627,12 @@
     "status": "present"
   },
   {
-    "id": 61,
-    "name": "Heavenly Artifacts",
-    "roles": [],
-    "lanes": [],
-    "year": null,
-    "img": "images/heroes/heavenly_artifacts.jpg",
-    "damageType": "",
-    "tags": [],
-    "status": "present"
-  },
-  {
     "id": 62,
     "name": "Helcurt",
     "roles": [],
     "lanes": [],
     "year": null,
     "img": "images/heroes/helcurt.png",
-    "damageType": "",
-    "tags": [],
-    "status": "present"
-  },
-  {
-    "id": 63,
-    "name": "Hero roles",
-    "roles": [],
-    "lanes": [],
-    "year": null,
-    "img": "",
-    "damageType": "",
-    "tags": [],
-    "status": "present"
-  },
-  {
-    "id": 64,
-    "name": "Heroes",
-    "roles": [],
-    "lanes": [],
-    "year": null,
-    "img": "images/heroes/heroes.jpg",
     "damageType": "",
     "tags": [],
     "status": "present"
@@ -957,34 +891,12 @@
     "status": "present"
   },
   {
-    "id": 88,
-    "name": "Lightborn",
-    "roles": [],
-    "lanes": [],
-    "year": null,
-    "img": "images/heroes/lightborn.jpg",
-    "damageType": "",
-    "tags": [],
-    "status": "present"
-  },
-  {
     "id": 89,
     "name": "Ling",
     "roles": [],
     "lanes": [],
     "year": null,
     "img": "images/heroes/ling.png",
-    "damageType": "",
-    "tags": [],
-    "status": "present"
-  },
-  {
-    "id": 90,
-    "name": "List of heroes",
-    "roles": [],
-    "lanes": [],
-    "year": null,
-    "img": "",
     "damageType": "",
     "tags": [],
     "status": "present"
@@ -1040,28 +952,6 @@
     "lanes": [],
     "year": null,
     "img": "images/heroes/lylia.png",
-    "damageType": "",
-    "tags": [],
-    "status": "present"
-  },
-  {
-    "id": 96,
-    "name": "Mage",
-    "roles": [],
-    "lanes": [],
-    "year": null,
-    "img": "images/heroes/mage.jpg",
-    "damageType": "",
-    "tags": [],
-    "status": "present"
-  },
-  {
-    "id": 97,
-    "name": "Marksman",
-    "roles": [],
-    "lanes": [],
-    "year": null,
-    "img": "images/heroes/marksman.jpg",
     "damageType": "",
     "tags": [],
     "status": "present"
@@ -1243,17 +1133,6 @@
     "status": "present"
   },
   {
-    "id": 114,
-    "name": "Oriental Fighters",
-    "roles": [],
-    "lanes": [],
-    "year": null,
-    "img": "images/heroes/oriental_fighters.png",
-    "damageType": "",
-    "tags": [],
-    "status": "present"
-  },
-  {
     "id": 115,
     "name": "Paquito",
     "roles": [],
@@ -1375,17 +1254,6 @@
     "status": "present"
   },
   {
-    "id": 126,
-    "name": "Side Laner",
-    "roles": [],
-    "lanes": [],
-    "year": null,
-    "img": "images/heroes/side_laner.jpg",
-    "damageType": "",
-    "tags": [],
-    "status": "present"
-  },
-  {
     "id": 127,
     "name": "Silvanna",
     "roles": [],
@@ -1408,34 +1276,12 @@
     "status": "present"
   },
   {
-    "id": 129,
-    "name": "Support",
-    "roles": [],
-    "lanes": [],
-    "year": null,
-    "img": "images/heroes/support.jpg",
-    "damageType": "",
-    "tags": [],
-    "status": "present"
-  },
-  {
     "id": 130,
     "name": "Suyou",
     "roles": [],
     "lanes": [],
     "year": null,
     "img": "images/heroes/suyou.png",
-    "damageType": "",
-    "tags": [],
-    "status": "present"
-  },
-  {
-    "id": 131,
-    "name": "Tank",
-    "roles": [],
-    "lanes": [],
-    "year": null,
-    "img": "images/heroes/tank.jpg",
     "damageType": "",
     "tags": [],
     "status": "present"
@@ -1463,17 +1309,6 @@
     "status": "present"
   },
   {
-    "id": 134,
-    "name": "The Exorcists/Member Introduction",
-    "roles": [],
-    "lanes": [],
-    "year": null,
-    "img": "images/heroes/the_exorcists_member_introduction.png",
-    "damageType": "",
-    "tags": [],
-    "status": "present"
-  },
-  {
     "id": 135,
     "name": "Tigreal",
     "roles": [],
@@ -1491,17 +1326,6 @@
     "lanes": [],
     "year": null,
     "img": "images/heroes/uranus.png",
-    "damageType": "",
-    "tags": [],
-    "status": "present"
-  },
-  {
-    "id": 137,
-    "name": "V.E.N.O.M.",
-    "roles": [],
-    "lanes": [],
-    "year": null,
-    "img": "images/heroes/v_e_n_o_m.png",
     "damageType": "",
     "tags": [],
     "status": "present"
