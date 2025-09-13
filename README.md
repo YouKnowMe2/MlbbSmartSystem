@@ -69,3 +69,9 @@ Enable on `main` via GitHub → Settings → Branches → Add rule:
 
 ## License
 Not specified. Add a license file if you plan to open source (e.g., MIT or Apache-2.0).
+
+## Data Updates (Fandom)
+- Script: `scripts/fetch_fandom.js` fetches heroes and items from the MLBB Fandom API and writes to `data/heroes.json` and `data/items.json`.
+- Images: by policy, we store image URLs (not local files). The app uses these URLs directly.
+- Run locally: `node scripts/fetch_fandom.js` (requires network access).
+- Attribution: Data and images originate from the MLBB Fandom wiki. Check image licenses on Fandom before redistributing.
