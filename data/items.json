@@ -45,7 +45,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/b/b9/Athena%27s_Shield_EquipEffectShow.png/revision/latest?cb=20240708170009"
+    "icon": "images/items/athenas_shield.png"
   },
   {
     "id": "awe_mask",
@@ -109,7 +109,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/b/b6/Blade_of_the_Heptaseas_EquipEffectShow.png/revision/latest?cb=20240708170010"
+    "icon": "images/items/blade_of_the_heptaseas.png"
   },
   {
     "id": "blood_wings",
@@ -117,7 +117,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/6/6f/Blood_Wings_EquipEffectShow.png/revision/latest?cb=20240708170012"
+    "icon": "images/items/blood_wings.png"
   },
   {
     "id": "bloodlust_axe",
@@ -237,7 +237,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/e/e4/Cursed_Helmet_EquipEffectShow.png/revision/latest?cb=20240708170014"
+    "icon": "images/items/cursed_helmet.png"
   },
   {
     "id": "dagger",
@@ -325,7 +325,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/a/ab/Endless_Battle_EquipEffectShow.png/revision/latest?cb=20240708170015"
+    "icon": "images/items/endless_battle.png"
   },
   {
     "id": "evil_hunter",
@@ -413,7 +413,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/4/46/Glowing_Wand_EquipEffectShow.png/revision/latest?cb=20240708170016"
+    "icon": "images/items/glowing_wand.png"
   },
   {
     "id": "gold",
@@ -485,7 +485,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/3/37/Hunter_Strike_EquipEffectShow.png/revision/latest?cb=20240708170018"
+    "icon": "images/items/hunter_strike.png"
   },
   {
     "id": "hunters_knife",
@@ -501,7 +501,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/1/18/Ice_Queen_Wand_EquipEffectShow.png/revision/latest?cb=20240708170020"
+    "icon": "images/items/ice_queen_wand.png"
   },
   {
     "id": "ice_retribution",
@@ -517,7 +517,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/2/21/Immortality_EquipEffectShow.png/revision/latest?cb=20240708170022"
+    "icon": "images/items/immortality.png"
   },
   {
     "id": "iron_hunting_bow",
@@ -581,7 +581,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/0/04/Lightning_Truncheon_EquipEffectShow.png/revision/latest?cb=20240708170023"
+    "icon": "images/items/lightning_truncheon.png"
   },
   {
     "id": "magic_blade",
@@ -589,7 +589,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/b/ba/Rose_Gold_Meteor_EquipEffectShow.png/revision/latest?cb=20240708170034"
+    "icon": "images/items/magic_blade.png"
   },
   {
     "id": "magic_necklace",
@@ -605,7 +605,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/c/cc/Magic_Potion_EquipEffectShow.png/revision/latest?cb=20240708170025"
+    "icon": "images/items/magic_potion.png"
   },
   {
     "id": "magic_resist_cloak",
@@ -637,7 +637,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/a/a1/Malefic_Gun_EquipEffectShow.png/revision/latest?cb=20240708170027"
+    "icon": "images/items/malefic_gun.png"
   },
   {
     "id": "malefic_roar",
@@ -653,7 +653,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/e/e4/Cursed_Helmet_EquipEffectShow.png/revision/latest?cb=20240708170014"
+    "icon": "images/items/molten_essence.png"
   },
   {
     "id": "movement_items",
@@ -685,7 +685,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/f/f8/Dominance_Ice_passive.jpg/revision/latest?cb=20211225080415"
+    "icon": "images/items/necklace_of_durance.jpg"
   },
   {
     "id": "nimble_blade",
@@ -757,7 +757,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/c/cf/Power_Potion_EquipEffectShow.png/revision/latest?cb=20240708170029"
+    "icon": "images/items/power_potion.png"
   },
   {
     "id": "queens_wings",
@@ -765,7 +765,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/8/83/Queen%27s_Wings_EquipEffectShow.png/revision/latest?cb=20240708170030"
+    "icon": "images/items/queens_wings.png"
   },
   {
     "id": "radiant_armor",
@@ -813,7 +813,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/d/d7/Rock_Potion_EquipEffectShow.png/revision/latest?cb=20240708170032"
+    "icon": "images/items/rock_potion.png"
   },
   {
     "id": "rogue_meteor",
@@ -829,7 +829,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/b/ba/Rose_Gold_Meteor_EquipEffectShow.png/revision/latest?cb=20240708170034"
+    "icon": "images/items/rose_gold_meteor.png"
   },
   {
     "id": "scarlet_phantom",
@@ -845,7 +845,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/e/e4/Sea_Halberd_EquipEffectShow.png/revision/latest?cb=20240708170036"
+    "icon": "images/items/sea_halberd.png"
   },
   {
     "id": "shadow_mask",
@@ -861,7 +861,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/b/ba/Shadow_Twinblades_passive.jpg/revision/latest?cb=20211123173218"
+    "icon": "images/items/shadow_twinblades.jpg"
   },
   {
     "id": "shimmering_lantern",
@@ -885,7 +885,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/0/00/Sky_Piercer_EquipEffectShow.png/revision/latest?cb=20240708170038"
+    "icon": "images/items/sky_piercer.png"
   },
   {
     "id": "soul_scroll",
@@ -917,7 +917,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/4/44/Starlium_Scythe_EquipEffectShow.png/revision/latest?cb=20240708170039"
+    "icon": "images/items/starlium_scythe.png"
   },
   {
     "id": "steel_legplates",
@@ -957,7 +957,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/d/d7/Thunder_Belt_EquipEffectShow.png/revision/latest?cb=20240708170040"
+    "icon": "images/items/thunder_belt.png"
   },
   {
     "id": "tome_of_evil",
@@ -981,7 +981,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/3/33/Twilight_Armor_EquipEffectShow.png/revision/latest?cb=20240708170042"
+    "icon": "images/items/twilight_armor.png"
   },
   {
     "id": "vampire_mallet",
@@ -1021,7 +1021,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/0/00/Wind_of_Nature_EquipEffectShow.png/revision/latest?cb=20240708170044"
+    "icon": "images/items/wind_of_nature.png"
   },
   {
     "id": "windtalker",
@@ -1029,7 +1029,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/6/6a/Windtalker_EquipEffectShow.png/revision/latest?cb=20240708170046"
+    "icon": "images/items/windtalker.png"
   },
   {
     "id": "winter_crown",
@@ -1037,7 +1037,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/9/90/Winter_Crown_EquipEffectShow.png/revision/latest?cb=20240708170047"
+    "icon": "images/items/winter_crown.png"
   },
   {
     "id": "wishing_lantern",
@@ -1045,7 +1045,7 @@
     "type": "",
     "tags": [],
     "notes": "",
-    "icon": "https://static.wikia.nocookie.net/mobile-legends/images/3/31/Wishing_Lantern_EquipEffectShow.png/revision/latest?cb=20240708170048"
+    "icon": "images/items/wishing_lantern.png"
   },
   {
     "id": "wizard_boots",
