@@ -44,8 +44,27 @@
             <select class="opponent" data-slot="5" aria-label="Opponent 5"></select>
           </div>
         </div>
+        <div>
+          <label for="your-role">Your Role</label>
+          <select id="your-role" aria-label="Your role">
+            <option value="">Any</option>
+            <option value="Gold">Gold</option>
+            <option value="EXP">EXP</option>
+            <option value="Mid">Mid</option>
+            <option value="Jungle">Jungle</option>
+            <option value="Roam">Roam</option>
+          </select>
+        </div>
         <div class="builder-actions">
+          <button id="recommend-hero" type="button">Recommend Hero</button>
           <button id="recommend" type="button">Recommend Items</button>
+        </div>
+      </div>
+
+      <div class="recommendations">
+        <div>
+          <h3>Top Counter Picks</h3>
+          <ul id="hero-picks" class="hero-picks"></ul>
         </div>
       </div>
 

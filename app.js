@@ -20,6 +20,7 @@ const roleEl = qs('#role-filter');
 const laneEl = qs('#lane-filter');
 const gridEl = qs('#grid');
 const countEl = qs('#count');
+const roleSelectEl = () => qs('#your-role');
 
 function placeholderSvg(name) {
   const initial = (name?.trim()?.[0] || '?').toUpperCase();
@@ -66,6 +67,18 @@ async function loadItems() {
   } catch (e) {
     console.warn('Items not available:', e?.message || e);
     return [];
+  }
+}
+
+async function loadCounters() {
+  try {
+    const res = await fetch('data/counters.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    return data || {};
+  } catch (e) {
+    console.info('No counters dataset found, continuing.');
+    return {};
   }
 }
 
@@ -159,6 +172,55 @@ function recommendOffense(yourHero, opponents, items) {
   return unique;
 }
 
+function roleFits(hero, role) {
+  if (!role) return true;
+  const roles = hero.roles || [];
+  return roles.includes(role);
+}
+
+function normalizeScore(x) { return isFinite(x) ? x : 0; }
+
+function computeCounterScore(hero, enemies, counters) {
+  let score = 0;
+  const entry = counters[hero.name] || counters[String(hero.id)] || null;
+  if (entry && Array.isArray(entry.counters)) {
+    for (const e of enemies) {
+      const hit = entry.counters.find(c => c.id === e.name || String(c.id) === String(e.id));
+      if (hit) score += Number(hit.score || 0);
+    }
+  }
+  if (entry && Array.isArray(entry.fears)) {
+    for (const e of enemies) {
+      const fear = entry.fears.find(c => c.id === e.name || String(c.id) === String(e.id));
+      if (fear) score -= Number(fear.score || 0);
+    }
+  }
+  return score;
+}
+
+function recommendHeroes(heroes, enemies, role, counters) {
+  const candidates = heroes.filter(h => h.status !== 'cancelled' && h.status !== 'removed');
+  const results = candidates.map(h => {
+    const base = computeCounterScore(h, enemies, counters);
+    const roleBonus = role ? (roleFits(h, role) ? 1.0 : -0.3) : 0;
+    const total = normalizeScore(base + roleBonus);
+    return { hero: h, score: total, parts: { base, role: roleBonus } };
+  }).sort((a,b) => b.score - a.score);
+  return results.slice(0, 10);
+}
+
+function renderHeroPicks(list) {
+  const el = qs('#hero-picks');
+  if (!el) return;
+  el.innerHTML = list.map(({hero, score}) => `
+    <li class="hero-pick" data-hero-id="${hero.id}">
+      <img class="hero-avatar" src="${hero.img || ''}" alt="" onerror="this.style.display='none'" />
+      <span class="hero-name">${hero.name}</span>
+      <span class="hero-score">${score.toFixed(2)}</span>
+    </li>
+  `).join('');
+}
+
 function renderItemList(el, items) {
   el.innerHTML = items.map(i => `
     <li class="item-row" title="${i.notes || ''}">
@@ -205,6 +267,7 @@ function applyFilters(heroes) {
   populateRoleFilter(heroes);
   populateBuilderSelects(heroes);
   const items = await loadItems();
+  const counters = await loadCounters();
   const render = () => renderCards(applyFilters(heroes));
   searchEl.addEventListener('input', render);
   roleEl.addEventListener('change', render);
@@ -214,12 +277,15 @@ function applyFilters(heroes) {
   const yourHeroEl = qs('#your-hero');
   const oppEls = qsa('.opponent');
   const btn = qs('#recommend');
+  const btnHero = qs('#recommend-hero');
+  const roleEl2 = roleSelectEl();
   const defList = qs('#defense-list');
   const offList = qs('#offense-list');
   const getHero = (sel) => heroes.find(h => String(h.id) === String(sel.value));
+  const getOpponents = () => oppEls.map(getHero).filter(Boolean);
   btn?.addEventListener('click', () => {
     const yourHero = getHero(yourHeroEl);
-    const opponents = oppEls.map(getHero).filter(Boolean);
+    const opponents = getOpponents();
     if (!yourHero || opponents.length === 0) {
       defList.innerHTML = '<li>Select your hero and at least one opponent.</li>';
       offList.innerHTML = '';
@@ -229,5 +295,23 @@ function applyFilters(heroes) {
     const off = recommendOffense(yourHero, opponents, items);
     renderItemList(defList, def);
     renderItemList(offList, off);
+  });
+  const doHeroRecs = () => {
+    const role = roleEl2?.value || '';
+    const opponents = getOpponents();
+    if (opponents.length === 0) { renderHeroPicks([]); return; }
+    const picks = recommendHeroes(heroes, opponents, role, counters);
+    renderHeroPicks(picks);
+  };
+  btnHero?.addEventListener('click', doHeroRecs);
+  roleEl2?.addEventListener('change', doHeroRecs);
+  oppEls.forEach(sel => sel.addEventListener('change', doHeroRecs));
+  qs('#hero-picks')?.addEventListener('click', (e) => {
+    const li = e.target.closest('.hero-pick');
+    if (!li) return;
+    const id = li.getAttribute('data-hero-id');
+    if (!id) return;
+    yourHeroEl.value = String(id);
+    btn.click();
   });
 })();
