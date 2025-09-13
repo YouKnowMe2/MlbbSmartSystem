@@ -407,17 +407,6 @@
     "status": "present"
   },
   {
-    "id": 40,
-    "name": "EXP Laner",
-    "roles": [],
-    "lanes": [],
-    "year": null,
-    "img": "",
-    "damageType": "",
-    "tags": [],
-    "status": "present"
-  },
-  {
     "id": 41,
     "name": "Fanny",
     "roles": [],
@@ -501,17 +490,6 @@
     "lanes": [],
     "year": null,
     "img": "images/heroes/gloo.png",
-    "damageType": "",
-    "tags": [],
-    "status": "present"
-  },
-  {
-    "id": 50,
-    "name": "Gold Laner",
-    "roles": [],
-    "lanes": [],
-    "year": null,
-    "img": "",
     "damageType": "",
     "tags": [],
     "status": "present"
@@ -721,17 +699,6 @@
     "lanes": [],
     "year": null,
     "img": "images/heroes/julian.png",
-    "damageType": "",
-    "tags": [],
-    "status": "present"
-  },
-  {
-    "id": 73,
-    "name": "Jungler",
-    "roles": [],
-    "lanes": [],
-    "year": null,
-    "img": "",
     "damageType": "",
     "tags": [],
     "status": "present"
@@ -1001,17 +968,6 @@
     "status": "present"
   },
   {
-    "id": 102,
-    "name": "Mid Laner",
-    "roles": [],
-    "lanes": [],
-    "year": null,
-    "img": "",
-    "damageType": "",
-    "tags": [],
-    "status": "present"
-  },
-  {
     "id": 103,
     "name": "Minotaur",
     "roles": [],
@@ -1183,17 +1139,6 @@
     "lanes": [],
     "year": null,
     "img": "images/heroes/rafaela.png",
-    "damageType": "",
-    "tags": [],
-    "status": "present"
-  },
-  {
-    "id": 120,
-    "name": "Roamer",
-    "roles": [],
-    "lanes": [],
-    "year": null,
-    "img": "",
     "damageType": "",
     "tags": [],
     "status": "present"

@@ -66,7 +66,9 @@ function isObviouslyNotHero(title) {
   const bad = [
     'heroes', 'cancelled', 'canceled', 'role', 'roles', 'fighter', 'assassin', 'mage', 'marksman', 'tank', 'support',
     'lightborn', 'v.e.n.o.m', 'venom', 'oriental fighters', 'the exorcists', 'exorcists', 'member introduction',
-    'heavenly artifacts', 'side laner'
+    'heavenly artifacts', 'side laner',
+    // Explicit non-hero role pages
+    'exp laner', 'gold laner', 'mid laner', 'roamer', 'jungler', 'laner'
   ];
   return bad.some(w => t.includes(w));
 }
@@ -87,4 +89,3 @@ async function main() {
 }
 
 main().catch(e => { console.error('Failed:', e.message || e); process.exit(1); });
-
