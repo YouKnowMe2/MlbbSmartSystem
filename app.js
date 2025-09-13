@@ -160,7 +160,13 @@ function recommendOffense(yourHero, opponents, items) {
 }
 
 function renderItemList(el, items) {
-  el.innerHTML = items.map(i => `<li title="${i.notes || ''}"><strong>${i.name}</strong> <small class=\"muted\">(${(i.tags||[]).join(', ')})</small></li>`).join('');
+  el.innerHTML = items.map(i => `
+    <li class="item-row" title="${i.notes || ''}">
+      ${i.icon ? `<img class="item-icon" src="${i.icon}" alt="" onerror="this.style.display='none'" />` : ''}
+      <span class="item-name"><strong>${i.name}</strong></span>
+      <small class="muted">(${(i.tags||[]).join(', ')})</small>
+    </li>
+  `).join('');
 }
 
 function renderCards(list) {

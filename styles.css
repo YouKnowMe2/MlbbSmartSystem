@@ -111,6 +111,22 @@ button#recommend {
   padding-left: 18px; 
 }
 
+.item-row {
+  display: grid;
+  grid-template-columns: 22px auto auto;
+  align-items: center;
+  gap: 8px;
+}
+
+.item-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  border: 1px solid var(--ring);
+  object-fit: cover;
+  background: #0e141c;
+}
+
 .card {
   background: linear-gradient(180deg, color-mix(in srgb, #1a2230 70%, #0a0e13 30%), var(--card));
   border: 1px solid var(--ring);
