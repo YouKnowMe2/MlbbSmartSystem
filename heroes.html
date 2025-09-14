@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MLBB Heroes</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="container">
+      <h1>Mobile Legends: Bang Bang - Heroes</h1>
+      <div class="controls">
+        <input id="search" type="search" placeholder="Search heroes." aria-label="Search heroes" />
+        <select id="role-filter" aria-label="Filter by role">
+          <option value="">All roles</option>
+        </select>
+        <select id="lane-filter" aria-label="Filter by lane">
+          <option value="">All lanes</option>
+          <option>Gold</option>
+          <option>EXP</option>
+          <option>Mid</option>
+          <option>Jungle</option>
+          <option>Roam</option>
+          <option>Any</option>
+        </select>
+        <span id="count" class="count" aria-live="polite"></span>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="grid" class="grid" aria-live="polite"></section>
+    </main>
+
+    <footer class="container footnote">
+      <small>Starter dataset. You can expand it in <code>data/heroes.json</code>.</small>
+    </footer>
+
+    <script defer src="app.js"></script>
+  </body>
+  </html>
