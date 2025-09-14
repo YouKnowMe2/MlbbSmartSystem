@@ -7,6 +7,28 @@
   --ring: #2a3750;
 }
 
+/* Site header */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: color-mix(in srgb, var(--card) 92%, #0b0f14);
+  border-bottom: 1px solid var(--ring);
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 10px 0;
+}
+.brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
+.logo { width: 28px; height: 28px; display: block; }
+.brand-name { font-weight: 800; letter-spacing: .3px; }
+.nav { display: inline-flex; gap: 12px; }
+.nav-link { color: var(--ink); text-decoration: none; padding: 8px 10px; border-radius: 8px; }
+.nav-link:hover { background: color-mix(in srgb, var(--accent) 15%, transparent); color: #e9f7ff; }
+
 * { box-sizing: border-box; }
 html, body { height: 100%; }
 body {
