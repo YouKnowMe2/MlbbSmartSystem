@@ -87,6 +87,7 @@ function uniqueSorted(values) {
 }
 
 function populateRoleFilter(heroes) {
+  if (!roleEl) return;
   const roles = uniqueSorted(heroes.flatMap(h => h.roles || []));
   for (const r of roles) {
     const opt = document.createElement('option');
@@ -270,30 +271,30 @@ function renderCards(list) {
 }
 
 function applyFilters(heroes) {
-  const q = searchEl.value.trim().toLowerCase();
-  const r = roleEl.value;
-  const l = laneEl.value;
+  const q = (searchEl?.value || '').trim().toLowerCase();
+  const r = roleEl?.value || '';
+  const l = laneEl?.value || '';
   const result = heroes.filter(h => {
     const nameOk = !q || h.name.toLowerCase().includes(q);
     const roleOk = !r || (h.roles || []).includes(r);
     const laneOk = !l || (h.lanes || []).includes(l) || (l === 'Any' && (h.lanes || []).length === 0);
     return nameOk && roleOk && laneOk;
   });
-  countEl.textContent = `${result.length} shown`;
+  if (countEl) countEl.textContent = `${result.length} shown`;
   return result;
 }
 
 (async function init() {
   const heroes = await loadHeroes();
-  populateRoleFilter(heroes);
+  if (roleEl) populateRoleFilter(heroes);
   populateBuilderSelects(heroes);
-  populateDraftBoard(heroes);
+  if (typeof populateDraftBoard === 'function') populateDraftBoard(heroes);
   const items = await loadItems();
   const counters = await loadCounters();
-  const render = () => renderCards(applyFilters(heroes));
-  searchEl.addEventListener('input', render);
-  roleEl.addEventListener('change', render);
-  laneEl.addEventListener('change', render);
+  const render = () => { if (gridEl) renderCards(applyFilters(heroes)); };
+  if (searchEl) searchEl.addEventListener('input', render);
+  if (roleEl) roleEl.addEventListener('change', render);
+  if (laneEl) laneEl.addEventListener('change', render);
   render();
   // Wire up recommender button
   const yourHeroEl = qs('#your-hero');
